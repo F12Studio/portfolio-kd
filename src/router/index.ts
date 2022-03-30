@@ -10,7 +10,7 @@ const router = new VueRouter({
   base: '/portfolio-kd/',
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: HomeView
     },
