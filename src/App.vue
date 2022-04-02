@@ -1,31 +1,7 @@
 <template>
   <v-app>
-    <v-app-bar
-        app
-        color="primary"
-        dark
-    >
-      <v-btn
-          class="mr-2"
-          rounded
-          outlined
-          @click="$router.push('/')"
-      >
-        HOME
-      </v-btn>
-      <v-btn
-          rounded
-          outlined
-          @click="$router.push('about')"
-      >
-        ABOUT
-      </v-btn>
-      <v-spacer/>
-      Katharina Duewel
-      <v-spacer/>
-    </v-app-bar>
-
     <v-main>
+    <NavigationBar/>
       <router-view/>
     </v-main>
   </v-app>
@@ -33,10 +9,11 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import NavigationBar from "@/components/NavigationBar.vue";
 
 export default Vue.extend({
   name: 'App',
-
+  components: {NavigationBar},
   data: () => ({
     //
   }),
