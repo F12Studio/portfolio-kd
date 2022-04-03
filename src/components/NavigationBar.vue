@@ -52,12 +52,24 @@ export default class NavigationBar extends Vue {
 <style>
 .navigation-main-text {
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  font-family: Poppins;
 }
 
 .navigation-buttons-text {
   font-size: 15px;
   letter-spacing: 2px;
   font-weight: 300;
+  font-family: Poppins;
+
 }
+
+.title-page {
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+
 </style>

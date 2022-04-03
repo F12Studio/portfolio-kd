@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-        <h1 class="font-italic">This is the tattoo page</h1>
+        <h1 class="title-page">This is the tattoo page</h1>
         <h2 class="navigation-buttons-text">Reportage über die Entstehung eines Tattoos im Tattoostudio "Hola Papaya" in München (Jun, 2021).</h2>
       </v-col>
       <v-col

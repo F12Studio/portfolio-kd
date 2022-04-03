@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        <h1 class="font-italic">This is the about page</h1>
+        <h1 class="title-page">This is the about page</h1>
       </v-col>
     </v-row>
   </v-container>
