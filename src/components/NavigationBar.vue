@@ -15,12 +15,20 @@
         <span class="navigation-buttons-text">HOME</span>
       </v-btn>
       <v-btn
-          class="navigation-buttons"
+          class="mr-2 navigation-buttons"
           rounded
           outlined
           @click="$router.push('about')"
       >
-        <span class="navigation-buttons-text">THIS IS A TEST</span>
+        <span class="navigation-buttons-text">ABOUT</span>
+      </v-btn>
+      <v-btn
+          class="mr-2 navigation-buttons"
+          rounded
+          outlined
+          @click="$router.push('gallery')"
+      >
+        <span class="navigation-buttons-text">BUTTON</span>
       </v-btn>
     </v-col>
     <v-col cols="4" class="text-center">
@@ -42,12 +50,12 @@ export default class NavigationBar extends Vue {
 </script>
 
 <style>
-.navigation-main-text{
+.navigation-main-text {
   font-size: 20px;
   letter-spacing: 5px;
 }
 
-.navigation-buttons-text{
+.navigation-buttons-text {
   font-size: 10px;
   letter-spacing: 5px;
 }
