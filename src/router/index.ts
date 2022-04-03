@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import AboutView from '../views/AboutView.vue'
 import GalleryView from "@/views/GalleryView.vue";
+import TattooView from "@/views/TattooView.vue";
 
 Vue.use(VueRouter)
 
@@ -18,15 +20,17 @@ const router = new VueRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+      component: AboutView
     },
     {
       path: '/gallery',
       name: 'gallery',
       component: GalleryView
+    },
+    {
+      path: '/tattoo',
+      name: 'tattoo',
+      component: TattooView
     },
   ]
 });

@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <v-container>
+    <v-row class="text-center">
+      <v-col cols="12">
+        <h1 class="font-italic">This is the about page</h1>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
+
+<script lang="ts">
+import {Component, Vue} from "vue-property-decorator";
+
+@Component
+export default class AboutView extends Vue {
+
+}
+</script>

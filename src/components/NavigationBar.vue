@@ -28,7 +28,7 @@
           outlined
           @click="$router.push('gallery')"
       >
-        <span class="navigation-buttons-text">BUTTON</span>
+        <span class="navigation-buttons-text">GALLERY</span>
       </v-btn>
     </v-col>
     <v-col cols="4" class="text-center">
@@ -56,7 +56,8 @@ export default class NavigationBar extends Vue {
 }
 
 .navigation-buttons-text {
-  font-size: 10px;
-  letter-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 </style>

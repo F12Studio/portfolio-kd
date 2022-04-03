@@ -2,7 +2,15 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        <h1 class="font-italic">i love you the most <3</h1>
+        <h1 class="font-italic">This is the gallery page</h1>
+        <v-btn
+            class="mr-2 navigation-buttons"
+            rounded
+            outlined
+            @click="$router.push('tattoo')"
+        >
+          <span class="navigation-buttons-text">Tattoo</span>
+        </v-btn>
       </v-col>
     </v-row>
   </v-container>
