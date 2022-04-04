@@ -6,41 +6,40 @@
         <h2 class="navigation-buttons-text">Reportage über die Entstehung eines Tattoos im Tattoostudio "Hola Papaya" in
           München (Jun, 2021).</h2>
       </v-col>
-      <v-col
-          v-for="n in 9"
-          :key="n"
-          class="d-flex child-flex"
-          cols="4"
-      >
-        <v-img
-            :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-            aspect-ratio="1"
-            class="grey lighten-2"
-        >
-          <template v-slot:placeholder>
-            <v-row
-                class="fill-height ma-0"
-                align="center"
-                justify="center"
-            >
-              <v-progress-circular
-                  indeterminate
-                  color="grey lighten-5"
-              ></v-progress-circular>
-            </v-row>
-          </template>
-        </v-img>
+      <v-col cols="12">
+        <gallery-tattoo-component/>
       </v-col>
     </v-row>
+
   </v-container>
 </template>
 
 
 <script lang="ts">
-
 import {Component, Vue} from "vue-property-decorator";
+import GalleryComponent from "@/components/GalleryTattooComponent.vue";
+import GalleryTattooComponent from "@/components/GalleryTattooComponent.vue";
 
-@Component
+@Component({
+  components: {
+    GalleryTattooComponent,
+  }
+})
 export default class TattooView extends Vue {
+
 }
 </script>
+
+
+<style scoped>
+
+.image {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #ebebeb;
+  margin: 5px 5px 48px 5px;
+}
+
+</style>

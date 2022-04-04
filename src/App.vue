@@ -18,5 +18,8 @@ export default Vue.extend({
   data: () => ({
     //
   }),
+  mounted() {
+    console.log(Vue.version);
+  }
 });
 </script>

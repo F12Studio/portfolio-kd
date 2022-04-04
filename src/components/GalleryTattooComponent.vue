@@ -1,0 +1,92 @@
+<template>
+  <v-item-group>
+    <v-container>
+      <v-row>
+        <v-col
+          cols="12"
+        >
+          <v-row>
+            <v-item v-for="image in images" v-bind:key="image">
+              <v-col
+              md="4"
+              sm="6"
+              xs="12">
+                <v-card
+                  class="d-flex align-center ma-2"
+                  dark
+                  elevation="11"
+                  :img="require(`@/assets/galleries/tattoo//${image}`)"
+                  height="400"
+                  width="500"
+                  @click="setCurrentPicture(image)"
+                >
+                </v-card>
+              </v-col>
+            </v-item>
+          </v-row>
+        </v-col>
+      </v-row>
+      <v-overlay :value="overlayActive" @click="overlayActive = false" opacity="0.75">
+        <div :style="windowSize" class="image-wrapper">
+          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/tattoo//${currentSelectedPicture}`)"/>
+        </div>
+      </v-overlay>
+    </v-container>
+  </v-item-group>
+</template>
+<script lang="ts">
+import {Component, Vue} from "vue-property-decorator";
+
+@Component
+export default class GalleryTattooComponent extends Vue {
+  private overlayActive = false;
+  private currentSelectedPicture = 'tattoo-23.jpg';
+  private windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
+
+  private images = [
+    'tattoo-23.jpg',
+    'tattoo-24.jpg',
+    'tattoo-25.jpg',
+    'tattoo-26.jpg',
+    'tattoo-27.jpg',
+    'tattoo-28.jpg',
+    'tattoo-29.jpg',
+    'tattoo-30.jpg',
+    'tattoo-31.jpg',
+    'tattoo-32.jpg',
+    'tattoo-33.jpg',
+    'tattoo-34.jpg',
+    'tattoo-35.jpg',
+    'tattoo-36.jpg',
+    'tattoo-37.jpg',]
+
+  public setCurrentPicture(image: string) {
+    this.currentSelectedPicture = image;
+    this.overlayActive = true;
+  }
+
+
+  public mounted() {
+    window.addEventListener("resize", this.recalculateWindowSize);
+  }
+
+  public recalculateWindowSize (){
+    this.windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
+  }
+
+}
+</script>
+
+<style scoped>
+.gallery-image{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-wrapper{
+  text-align: center;
+}
+
+</style>
