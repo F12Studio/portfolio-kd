@@ -1,5 +1,6 @@
 <template>
   <v-app>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <v-main>
     <NavigationBar/>
       <router-view/>
