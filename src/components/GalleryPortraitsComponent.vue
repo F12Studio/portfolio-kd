@@ -16,7 +16,7 @@
                   dark
                   tile
                   flat
-                  :img="require(`@/assets/galleries/tattoo//${image}`)"
+                  :img="require(`@/assets/galleries/portraits//${image}`)"
                   height="400"
                   width="600"
                   @click="setCurrentPicture(image)"
@@ -29,7 +29,7 @@
       </v-row>
       <v-overlay :value="overlayActive" @click="overlayActive = false" opacity="0.95">
         <div :style="windowSize" class="image-wrapper">
-          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/tattoo//${currentSelectedPicture}`)"/>
+          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/portraits//${currentSelectedPicture}`)"/>
         </div>
       </v-overlay>
     </v-container>
@@ -39,27 +39,27 @@
 import {Component, Vue} from "vue-property-decorator";
 
 @Component
-export default class GalleryTattooComponent extends Vue {
+export default class GalleryPortraitsComponent extends Vue {
   private overlayActive = false;
-  private currentSelectedPicture = 'tattoo-01.jpg';
+  private currentSelectedPicture = 'portraits-01.jpg';
   private windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
 
   private images = [
-    'tattoo-01.jpg',
-    'tattoo-02.jpg',
-    'tattoo-03.jpg',
-    'tattoo-04.jpg',
-    'tattoo-05.jpg',
-    'tattoo-06.jpg',
-    'tattoo-07.jpg',
-    'tattoo-08.jpg',
-    'tattoo-09.jpg',
-    'tattoo-10.jpg',
-    'tattoo-11.jpg',
-    'tattoo-12.jpg',
-    'tattoo-13.jpg',
-    'tattoo-14.jpg',
-    'tattoo-15.jpg',
+    'portraits-01.jpg',
+    'portraits-02.jpg',
+    'portraits-03.jpg',
+    'portraits-04.jpg',
+    'portraits-05.jpg',
+    'portraits-06.jpg',
+    'portraits-07.jpg',
+    'portraits-08.jpg',
+    'portraits-09.jpg',
+    'portraits-10.jpg',
+    'portraits-11.jpg',
+    'portraits-12.jpg',
+    'portraits-13.jpg',
+    'portraits-14.jpg',
+    'portraits-15.jpg',
   ]
 
   public setCurrentPicture(image: string) {

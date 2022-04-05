@@ -16,7 +16,7 @@
                   dark
                   tile
                   flat
-                  :img="require(`@/assets/galleries/tattoo//${image}`)"
+                  :img="require(`@/assets/galleries/dogs//${image}`)"
                   height="400"
                   width="600"
                   @click="setCurrentPicture(image)"
@@ -29,7 +29,7 @@
       </v-row>
       <v-overlay :value="overlayActive" @click="overlayActive = false" opacity="0.95">
         <div :style="windowSize" class="image-wrapper">
-          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/tattoo//${currentSelectedPicture}`)"/>
+          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/dogs//${currentSelectedPicture}`)"/>
         </div>
       </v-overlay>
     </v-container>
@@ -39,27 +39,27 @@
 import {Component, Vue} from "vue-property-decorator";
 
 @Component
-export default class GalleryTattooComponent extends Vue {
+export default class GalleryDogsComponent extends Vue {
   private overlayActive = false;
-  private currentSelectedPicture = 'tattoo-01.jpg';
+  private currentSelectedPicture = 'dogs-01.jpg';
   private windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
 
   private images = [
-    'tattoo-01.jpg',
-    'tattoo-02.jpg',
-    'tattoo-03.jpg',
-    'tattoo-04.jpg',
-    'tattoo-05.jpg',
-    'tattoo-06.jpg',
-    'tattoo-07.jpg',
-    'tattoo-08.jpg',
-    'tattoo-09.jpg',
-    'tattoo-10.jpg',
-    'tattoo-11.jpg',
-    'tattoo-12.jpg',
-    'tattoo-13.jpg',
-    'tattoo-14.jpg',
-    'tattoo-15.jpg',
+    'dogs-01.jpg',
+    'dogs-02.jpg',
+    'dogs-03.jpg',
+    'dogs-04.jpg',
+    'dogs-05.jpg',
+    'dogs-06.jpg',
+    'dogs-07.jpg',
+    'dogs-08.jpg',
+    'dogs-09.jpg',
+    'dogs-10.jpg',
+    'dogs-11.jpg',
+    'dogs-12.jpg',
+    'dogs-13.jpg',
+    'dogs-14.jpg',
+    'dogs-15.jpg',
   ]
 
   public setCurrentPicture(image: string) {

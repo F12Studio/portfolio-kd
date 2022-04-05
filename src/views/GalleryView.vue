@@ -16,7 +16,7 @@
             class="mt-5 mr-2 navigation-buttons"
             rounded
             outlined
-            @click="$router.push('tattoo')"
+            @click="$router.push('imitation')"
         >
           <span class="navigation-buttons-text">Imitation</span>
         </v-btn>
@@ -24,7 +24,7 @@
             class="mt-5 mr-2 navigation-buttons"
             rounded
             outlined
-            @click="$router.push('tattoo')"
+            @click="$router.push('portraits')"
         >
           <span class="navigation-buttons-text">Portraits</span>
         </v-btn>
@@ -32,7 +32,7 @@
             class="mt-5 navigation-buttons"
             rounded
             outlined
-            @click="$router.push('tattoo')"
+            @click="$router.push('dogs')"
         >
           <span class="navigation-buttons-text">Dogs</span>
         </v-btn>
