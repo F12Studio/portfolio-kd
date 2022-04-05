@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-spacer/>
       <v-col cols="8">
-        <h1 class="title-page">This is the gallery page</h1>
+        <h1 class="mt-10 mb-5 title-page">This is the gallery page</h1>
         <v-btn
             class="mr-2 mt-5 navigation-buttons"
             rounded

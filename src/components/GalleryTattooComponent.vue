@@ -29,7 +29,8 @@
       </v-row>
       <v-overlay :value="overlayActive" @click="overlayActive = false" opacity="0.95">
         <div :style="windowSize" class="image-wrapper">
-          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/tattoo//${currentSelectedPicture}`)"/>
+          <img class="gallery-image" @click="overlayActive = false"
+               :src="require(`@/assets/galleries/tattoo//${currentSelectedPicture}`)"/>
         </div>
       </v-overlay>
     </v-container>

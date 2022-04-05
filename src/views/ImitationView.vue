@@ -2,9 +2,12 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-        <h1 class="title-page">This is the imitation page</h1>
-        <h2 class="navigation-buttons-text">Reportage über die Entstehung eines Tattoos im Tattoostudio "Hola Papaya" in
-          München (Jun, 2021).</h2>
+        <h1 class="mt-10 mb-2 title-page">Imitation of an Idol</h1>
+        <v-divider class="divider"></v-divider>
+        <p class="text-page">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Da ich in diesem
+          Studio selbst Kundin bin, war ich sehr glücklich, dort
+          meine Reportage fotografieren zu können. <br> Das Tätowieren hat mich schon seit Jahren fasziniert und
+          begeistert. Hier habe ich Fefy begleitet, die einer Stammkundin ein Cover-Up gestochen hat. </p>
       </v-col>
       <v-col cols="12">
         <gallery-imitation-component/>
