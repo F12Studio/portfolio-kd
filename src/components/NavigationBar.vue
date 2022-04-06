@@ -61,7 +61,7 @@ export default class NavigationBar extends Vue {
 <style>
 .navigation-main-text {
   font-size: 20px;
-  font-family: "Signerica Medium";
+  font-family: "Signerica";
   color: #212121;
 }
 

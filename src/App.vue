@@ -29,6 +29,11 @@ export default Vue.extend({
 </script>
 
 <style>
+@font-face {
+  font-family: "Signerica Medium";
+  src: local("Signerica Medium"),   url(./fonts/Signerica_Medium.ttf) format("truetype");
+}
+
 .text-page {
   font-size: 14px;
   letter-spacing: 2px;
