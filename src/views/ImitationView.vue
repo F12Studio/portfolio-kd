@@ -4,10 +4,11 @@
       <v-col cols="12">
         <h1 class="mt-10 mb-2 title-page">Imitation of an Idol</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Da ich in diesem
-          Studio selbst Kundin bin, war ich sehr glücklich, dort
-          meine Reportage fotografieren zu können. <br> Das Tätowieren hat mich schon seit Jahren fasziniert und
-          begeistert. Hier habe ich Fefy begleitet, die einer Stammkundin ein Cover-Up gestochen hat. </p>
+        <p class="text-page">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Vorbild und
+          Nachbil - mein erstes
+          Fotoprojekt im Studium, und es ist immer noch eines meiner Favoriten. <br> Seine starken Bildern und der
+          gesellschaftskritische Inhalt haben Marius SPerlich bekannt gemacht, sein Stil ist einzigartig. Ihn zu
+          imitieren war nicht einfach, aber auf jeden Fall eine schöne Challenge, auf die ich sehr stolz bin.</p>
       </v-col>
       <v-col cols="12">
         <gallery-imitation-component/>

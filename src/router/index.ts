@@ -7,6 +7,8 @@ import DogsView from "@/views/DogsView.vue";
 import ImitationView from "@/views/ImitationView.vue";
 import PortraitsView from "@/views/PortraitsView.vue";
 import TattooView from "@/views/TattooView.vue";
+import CityView from "@/views/CityView.vue";
+import LandscapeView from "@/views/LandscapeView.vue";
 
 Vue.use(VueRouter)
 
@@ -49,6 +51,16 @@ const router = new VueRouter({
       path: '/dogs',
       name: 'dogs',
       component: DogsView
+    },
+    {
+      path: '/city',
+      name: 'city',
+      component: CityView
+    },
+    {
+      path: '/landscape',
+      name: 'landscape',
+      component: LandscapeView
     },
   ]
 });

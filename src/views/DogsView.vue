@@ -14,7 +14,6 @@
         <gallery-dogs-component/>
       </v-col>
     </v-row>
-
   </v-container>
 </template>
 
@@ -34,16 +33,3 @@ export default class DogsView extends Vue {
 }
 </script>
 
-
-<style scoped>
-
-.image {
-  float: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border: 1px solid #ebebeb;
-  margin: 5px 5px 48px 5px;
-}
-
-</style>

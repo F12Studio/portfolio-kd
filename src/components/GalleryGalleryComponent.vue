@@ -113,6 +113,60 @@
                 </v-card>
               </v-hover>
             </v-col>
+            <v-col
+                md="4"
+                sm="6"
+                xs="12">
+              <v-hover v-slot="{ hover }">
+                <v-card
+                    class="d-flex align-center"
+                    dark
+                    tile
+                    flat
+                    :img="require(`@/assets/galleries/city/city-07.jpg`)"
+                    height="400"
+                    width="600"
+                    @click="$router.push('city')"
+                >
+                  <v-expand-transition>
+                    <div
+                        v-if="hover"
+                        class="hover-button"
+                        style="height: 100%; width: 800px;"
+                    >
+                      <h1 class="hover-text">City</h1>
+                    </div>
+                  </v-expand-transition>
+                </v-card>
+              </v-hover>
+            </v-col>
+            <v-col
+                md="4"
+                sm="6"
+                xs="12">
+              <v-hover v-slot="{ hover }">
+                <v-card
+                    class="d-flex align-center"
+                    dark
+                    tile
+                    flat
+                    :img="require(`@/assets/galleries/landscape/landscape-01.jpg`)"
+                    height="400"
+                    width="600"
+                    @click="$router.push('landscape')"
+                >
+                  <v-expand-transition>
+                    <div
+                        v-if="hover"
+                        class="hover-button"
+                        style="height: 100%; width: 800px;"
+                    >
+                      <h1 class="hover-text">Landscape</h1>
+                    </div>
+                  </v-expand-transition>
+                </v-card>
+              </v-hover>
+            </v-col>
           </v-row>
         </v-col>
       </v-row>
