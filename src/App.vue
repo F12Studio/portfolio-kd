@@ -1,8 +1,8 @@
 <template>
   <v-app>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <v-main>
-    <NavigationBar/>
+      <NavigationBar/>
       <router-view/>
     </v-main>
   </v-app>
@@ -38,16 +38,18 @@ export default Vue.extend({
   font-size: 32px;
   font-family: "Didot";
   font-weight: 500;
-  color: #2c2c2c;
+  color: #009994;
 }
 
 .divider {
-  outline-color: aquamarine;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   width: 15%;
+  border-color: #7d7d7d !important;
 }
 
 .vertical-center {
-  vertical-align: baseline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

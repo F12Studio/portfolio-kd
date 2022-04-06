@@ -4,15 +4,16 @@
       <v-col cols="12">
         <h1 class="mt-10 mb-2 title-page">Portraits & Couples</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page">(Eigene Serie, 2019 - 2022). <br> Da ich in diesem Studio selbst Kundin bin, war ich sehr glücklich, dort
-          meine Reportage fotografieren zu können. <br> Das Tätowieren hat mich schon seit Jahren fasziniert und
-          begeistert. Hier habe ich Fefy begleitet, die einer Stammkundin ein Cover-Up gestochen hat. </p>
+        <p class="text-page">(Eigene Serie, 2019 - 2022). <br> Auch wenn ich mit der Tierfotografie begonnen habe, bin
+          ich relativ schnell zur Portraitfotografie gekommen. <br> Es ist nochmal eine ganz andere Herausforderung, der
+          ich mich sehr gerne stelle und so imemr weiter an mir arbeiten kann. <br> Abgesehen von normalen Portraits und
+          Couple-Shootings arbeite ich auch sehr gerne mit Photoshop, um die reale und fiktive Welt miteinander zu
+          verbinden. </p>
       </v-col>
       <v-col cols="12">
         <gallery-portraits-component/>
       </v-col>
     </v-row>
-
   </v-container>
 </template>
 
