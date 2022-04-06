@@ -78,16 +78,3 @@ export default class GalleryDogsComponent extends Vue {
 
 }
 </script>
-
-<style scoped>
-.gallery-image{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.image-wrapper{
-  text-align: center;
-}
-</style>

@@ -26,3 +26,20 @@ export default class GalleryView extends Vue {
 
 }
 </script>
+
+<style>
+.gallery-image{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+
+.image-wrapper{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+;
+}
+</style>
