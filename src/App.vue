@@ -2,8 +2,11 @@
   <v-app>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <v-main>
-      <NavigationBar/>
-      <router-view/>
+      <div class="v-application">
+        <NavigationBar/>
+        <router-view/>
+      </div>
+      <Footer/>
     </v-main>
   </v-app>
 </template>
@@ -11,10 +14,11 @@
 <script lang="ts">
 import Vue from 'vue';
 import NavigationBar from "@/components/NavigationBar.vue";
+import Footer from "@/components/Footer.vue"
 
 export default Vue.extend({
   name: 'App',
-  components: {NavigationBar},
+  components: {Footer, NavigationBar},
   data: () => ({
     //
   }),
@@ -31,7 +35,7 @@ export default Vue.extend({
   font-weight: 300;
   font-family: Poppins;
   line-height: 1.8;
-  color: #7d7d7d;
+  color: #424242;
 }
 
 .title-page {
@@ -44,12 +48,16 @@ export default Vue.extend({
 .divider {
   margin-bottom: 25px;
   width: 15%;
-  border-color: #7d7d7d !important;
+  border-color: #424242 !important;
 }
 
 .vertical-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.v-application {
+  background-color: #f5f5f5 !important;
 }
 </style>

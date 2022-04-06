@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="v-application">
     <v-row class="left">
       <v-col cols="12">
         <h1 class="mt-10 mb-2 title-page text-left">Hello, nice to meet you.</h1>
@@ -14,7 +14,7 @@
           <v-spacer/>
           <div class="vertical-center">
             <v-col col="5">
-              <p class="title-page text-right">"Fotografie ist für mich mehr <br> als nur ein Hobby"</p>
+              <p class="title-page text-right" style="font-size: 44px; color: #424242;">"Fotografie ist für mich mehr <br> als nur ein Hobby"</p>
             </v-col>
           </div>
         </v-row>

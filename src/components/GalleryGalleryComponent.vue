@@ -9,26 +9,27 @@
                 sm="6"
                 xs="12">
               <v-hover v-slot="{ hover }">
-              <v-card
-                  class="d-flex align-center"
-                  dark
-                  tile
-                  flat
-                  :img="require(`@/assets/galleries/imitation/imitation-1.jpg`)"
-                  height="400"
-                  width="600"
-                  @click="$router.push('imitation')"
-              >
-                <v-expand-transition>
-                  <div
-                      v-if="hover"
-                      class="hover-button"
-                      style="height: 100%; width: 400px;"
-                  >
-                    <h1 class="hover-text">Imitaiton</h1>
-                  </div>
-                </v-expand-transition>
-              </v-card>
+                <v-card
+                    class="d-flex align-center"
+                    dark
+                    tile
+                    flat
+                    :img="require(`@/assets/galleries/imitation/imitation-2.jpg`)"
+                    height="400"
+                    width="600"
+                    @click="$router.push('imitation')"
+                >
+                  <v-expand-transition>
+                    <div
+                        v-if="hover"
+                        id="hover-button"
+                        class="hover-button"
+                        style="height: 100%; width: 400px;"
+                    >
+                      <h1 class="hover-text">Imitaiton</h1>
+                    </div>
+                  </v-expand-transition>
+                </v-card>
               </v-hover>
             </v-col>
             <v-col
@@ -133,18 +134,17 @@
 
 .hover-button {
   display: flex;
-  background-color: #2c2c2c;
+  background-color: #212121;
   opacity: 85%;
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 500ms !important;
 }
 
 .hover-text {
-  color: #fff;
+  color: #f5f5f5;
   font-family: Didot;
   font-weight: 300;
 }
-
 </style>

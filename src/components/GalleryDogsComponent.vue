@@ -90,5 +90,4 @@ export default class GalleryDogsComponent extends Vue {
 .image-wrapper{
   text-align: center;
 }
-
 </style>

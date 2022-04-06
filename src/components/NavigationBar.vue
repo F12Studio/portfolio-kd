@@ -62,7 +62,7 @@ export default class NavigationBar extends Vue {
 .navigation-main-text {
   font-size: 20px;
   font-family: "Signerica Medium";
-  color: #2c2c2c;
+  color: #212121;
 }
 
 .navigation-buttons-text {
@@ -70,7 +70,7 @@ export default class NavigationBar extends Vue {
   letter-spacing: 2px;
   font-weight: 300;
   font-family: Poppins;
-  color: #2c2c2c;
+  color: #212121;
 
 }
 </style>
