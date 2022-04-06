@@ -31,7 +31,7 @@ export default Vue.extend({
 <style>
 @font-face {
   font-family: "Signerica Medium";
-  src: local("Signerica Medium"),   url(./fonts/Signerica_Medium.ttf) format("truetype");
+  src: local("Signerica Medium"),   url(fonts/Signerica_Medium.ttf) format("truetype");
 }
 
 .text-page {
