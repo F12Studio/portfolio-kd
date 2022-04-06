@@ -1,11 +1,24 @@
 <template>
   <v-container class="v-application">
-    <v-row class="left">
-      <v-col cols="12">
+    <v-row>
+      <v-col cols
+             md="0"
+             lg="0"
+             xl="1"></v-col>
+      <v-col cols
+             md="12"
+             lg="12"
+             xl="10">
         <h1 class="mt-10 mb-2 title-page text-left">Hello, nice to meet you.</h1>
         <v-divider class="divider"></v-divider>
+      </v-col>
+      <v-col cols
+             md="0"
+             lg="0"
+             xl="1"></v-col>
         <v-row>
-          <v-col col="5" class="mb-5 mt-5">
+          <v-spacer/>
+          <v-col col="5" class="mb-5 mt-5" style="align-content:left;">
             <img
                 height="400px"
                 width="auto"
@@ -17,6 +30,7 @@
               <p class="title-page text-right" style="font-size: 44px; color: #424242;">"Fotografie ist für mich mehr <br> als nur ein Hobby"</p>
             </v-col>
           </div>
+          <v-spacer/>
         </v-row>
         <v-row>
           <v-spacer/>

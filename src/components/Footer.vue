@@ -1,6 +1,6 @@
 <template>
   <v-footer
-      style="margin-top: 50px;"
+      style="margin-top: 50px; padding: 0; "
   >
     <v-card
         flat
@@ -9,7 +9,7 @@
     >
       <h1 class="footer-text" style="font-size: 18px; color: #616161;"> Kontakt </h1>
       <v-card-text class="footer-text">
-        Katharina Düwel Fotografie I katharinaduewel@icloud.com  I 0173 2188024
+        Katharina Düwel Fotografie I katharinaduewel@icloud.com I 0173 2188024
       </v-card-text>
 
       <v-divider style="width: 500px; border-color: #747474; opacity: 50%;"></v-divider>
@@ -31,12 +31,13 @@ export default {
 .footer-main {
   background-color: #fff;
   color: #424242;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-text {
   color: #424242;
   font-family: Poppins;
   font-size: 14px;
-
 }
 </style>

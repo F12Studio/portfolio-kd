@@ -58,6 +58,6 @@ export default Vue.extend({
 }
 
 .v-application {
-  background-color: #f5f5f5 !important;
+  background-color: #eeeeee !important;
 }
 </style>

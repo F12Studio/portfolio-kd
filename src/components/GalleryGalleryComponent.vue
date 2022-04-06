@@ -24,7 +24,7 @@
                         v-if="hover"
                         id="hover-button"
                         class="hover-button"
-                        style="height: 100%; width: 400px;"
+                        style="height: 100%; width: 800px;"
                     >
                       <h1 class="hover-text">Imitaiton</h1>
                     </div>
@@ -51,7 +51,7 @@
                     <div
                         v-if="hover"
                         class="hover-button"
-                        style="height: 100%; width: 400px;"
+                        style="height: 100%; width: 800px;"
                     >
                       <h1 class="hover-text">Tattoo</h1>
                     </div>
@@ -78,7 +78,7 @@
                     <div
                         v-if="hover"
                         class="hover-button"
-                        style="height: 100%; width: 400px;"
+                        style="height: 100%; width: 800px;"
                     >
                       <h1 class="hover-text">Portraits</h1>
                     </div>
@@ -105,7 +105,7 @@
                     <div
                         v-if="hover"
                         class="hover-button"
-                        style="height: 100%; width: 400px;"
+                        style="height: 100%; width: 800px;"
                     >
                       <h1 class="hover-text">Dogs</h1>
                     </div>
@@ -143,7 +143,7 @@
 }
 
 .hover-text {
-  color: #f5f5f5;
+  color: #eeeeee;
   font-family: Didot;
   font-weight: 300;
 }
