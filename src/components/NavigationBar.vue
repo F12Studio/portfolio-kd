@@ -7,13 +7,18 @@
       fixed
       flat
   >
-    <v-spacer/>
+    <v-col cols="1"></v-col>
     <v-col cols="4" class="text-left">
-      <span class="navigation-main-text">Katharina Düwel</span>
+      <v-img
+          :src="require(`@/assets/logo3.png`)"
+          @click="$router.push('/')"
+          style="width: 75%; height: 75%;"
+      ></v-img>
     </v-col>
+    <v-spacer/>
     <v-col cols="4" class="text-right">
       <v-btn
-          class="mr-2 navigation-buttons"
+          class="mr-10 pa-0 navigation-buttons"
           rounded
           color="#fff"
           depressed
@@ -23,7 +28,7 @@
         <span class="navigation-buttons-text">HOME</span>
       </v-btn>
       <v-btn
-          class="mr-2 navigation-buttons"
+          class="mr-10 pa-0 navigation-buttons"
           rounded
           color="#fff"
           depressed
@@ -33,7 +38,7 @@
         <span class="navigation-buttons-text">ABOUT</span>
       </v-btn>
       <v-btn
-          class="navigation-buttons"
+          class="pa-0 navigation-buttons"
           rounded
           color="#fff"
           depressed
@@ -43,7 +48,7 @@
         <span class="navigation-buttons-text">GALLERY</span>
       </v-btn>
     </v-col>
-    <v-spacer/>
+    <v-col cols="1"></v-col>
   </v-app-bar>
 
 
@@ -59,18 +64,18 @@ export default class NavigationBar extends Vue {
 </script>
 
 <style>
-.navigation-main-text {
+/*.navigation-main-text {
   font-size: 20px;
   font-family: "Signerica Medium";
   color: #212121;
-}
+}*/
 
 .navigation-buttons-text {
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 400;
   font-family: Poppins;
-  color: #212121;
+  color: #424242 !important;
 
 }
 </style>

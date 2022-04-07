@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="margin-bottom: 50px;">
     <v-row class="text-left">
       <v-col cols="12">
         <h1 class="mt-10 mb-2 title-page">Landscape</h1>

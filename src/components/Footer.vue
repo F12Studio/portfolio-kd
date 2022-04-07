@@ -1,23 +1,29 @@
 <template>
   <v-footer
-      style="margin-top: 50px; padding: 0; "
+      style="padding: 0; margin: 0; "
   >
-    <v-card
-        flat
-        tile
-        class="footer-main pa-7 ma-0 text-center"
-    >
-      <h1 class="footer-text" style="font-size: 18px; color: #616161;"> Kontakt </h1>
-      <v-card-text class="footer-text">
-        Katharina Düwel Fotografie I katharinaduewel@icloud.com I 0173 2188024
-      </v-card-text>
+    <v-row>
+      <v-col cols="12">
 
-      <v-divider style="width: 500px; border-color: #747474; opacity: 50%;"></v-divider>
+        <v-card
+            flat
+            tile
+            class="footer-main pa-7 ma-0 text-center"
+        >
+          <h1 class="footer-text" style="font-size: 18px;">Kontakt</h1>
+          <v-card-text class="footer-text">
+            Katharina Düwel Fotografie <strong style="color: #424242;">I</strong> katharinaduewel@icloud.com <strong
+              style="color: #212121;">I</strong> 0173 2188024
+          </v-card-text>
 
-      <v-card-text class="footer-text">
-        <strong style="color: #616161;"> © 2022 </strong> by  Katharina Düwel
-      </v-card-text>
-    </v-card>
+          <v-divider style="width: 750px; border-color: #747474; opacity: 75%; display: inline-block;"></v-divider>
+
+          <v-card-text class="footer-text">
+            <strong style="color: #424242;">© 2022</strong> by Katharina Düwel
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-footer>
 </template>
 
@@ -37,6 +43,7 @@ export default {
 
 .footer-text {
   color: #424242;
+  opacity: 75%;
   font-family: Poppins;
   font-size: 14px;
 }
