@@ -9,7 +9,7 @@
 </template>-->
 
 <template>
-  <v-container>
+  <v-container >
     <v-row>
       <v-col cols="12">
         <v-img
@@ -28,4 +28,6 @@ import {Component, Vue} from "vue-property-decorator";
 export default class HomeView extends Vue {
 }
 </script>
+
+
 

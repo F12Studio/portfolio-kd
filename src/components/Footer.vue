@@ -4,7 +4,6 @@
   >
     <v-row>
       <v-col cols="12">
-
         <v-card
             flat
             tile
