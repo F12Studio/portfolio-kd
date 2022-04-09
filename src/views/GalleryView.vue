@@ -1,7 +1,7 @@
 <template>
   <v-container style="margin-bottom: 50px;">
     <v-row class="text-left">
-      <v-col cols="12">
+      <v-col cols="12 ml-3">
         <h1 class="mt-10 mb-2 title-page">Gallery</h1>
         <v-divider class="divider"></v-divider>
       </v-col>

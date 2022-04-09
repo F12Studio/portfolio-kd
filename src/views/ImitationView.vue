@@ -1,7 +1,7 @@
 <template>
   <v-container style="margin-bottom: 50px;">
     <v-row class="text-left">
-      <v-col cols="12">
+      <v-col cols="12 ml-3">
         <h1 class="mt-10 mb-2 title-page">Imitation of an Idol</h1>
         <v-divider class="divider"></v-divider>
         <p class="text-page">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Vorbild und

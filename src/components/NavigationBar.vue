@@ -3,12 +3,12 @@
   <v-app-bar
       app
       color="#fff"
-      height="100px"
+      height="110px"
       fixed
       flat
   >
     <v-col cols="1"></v-col>
-    <v-col cols="4" class="text-left">
+    <v-col cols="4" class="text-left" styel="padding-top: 20px; padding-bottom: 20px;">
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
