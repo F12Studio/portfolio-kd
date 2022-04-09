@@ -46,20 +46,20 @@ export default class HomeView extends Vue {
   color: #fff;
   font-family: Didot;
   text-shadow: #212121;
-  font-size: 64px;
+  font-size: 72px;
   text-align: left;
-  padding-top: 450px;
+  padding-top: 55vh;
 }
 
 .animation {
   color: transparent;
-  animation: blur 10s ease-out infinite;
-  -webkit-animation: blur 10s ease-out infinite;
+  animation: blur 6s ease-out infinite;
+  -webkit-animation: blur 6s ease-out infinite;
 }
 
 .animation:nth-child(1) {
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 
 @keyframes blur {
