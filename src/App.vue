@@ -51,7 +51,7 @@ export default Vue.extend({
 }
 
 .divider {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   width: 15%;
   border-color: #424242 !important;
 }

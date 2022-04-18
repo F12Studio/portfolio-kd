@@ -2,34 +2,35 @@
   <v-item-group>
     <v-container>
       <v-row>
-        <v-col
-          cols="12"
-        >
+        <v-spacer/>
+        <v-col cols md="12" lg="12" xl="10" class="mt-5 pa-0">
           <v-row>
             <v-item v-for="image in images" v-bind:key="image">
               <v-col
-              md="4"
-              sm="6"
-              xs="12">
+                  md="4"
+                  sm="6"
+                  xs="12">
                 <v-card
-                  class="d-flex align-center"
-                  dark
-                  tile
-                  flat
-                  :img="require(`@/assets/galleries/portraits//${image}`)"
-                  height="400"
-                  width="600"
-                  @click="setCurrentPicture(image)"
+                    class="d-flex align-center"
+                    dark
+                    tile
+                    flat
+                    :img="require(`@/assets/galleries/portraits//${image}`)"
+                    height="400"
+                    width="600"
+                    @click="setCurrentPicture(image)"
                 >
                 </v-card>
               </v-col>
             </v-item>
           </v-row>
         </v-col>
+        <v-spacer/>
       </v-row>
       <v-overlay :value="overlayActive" @click="overlayActive = false" opacity="0.95">
         <div :style="windowSize" class="image-wrapper">
-          <img class="gallery-image" @click="overlayActive = false" :src="require(`@/assets/galleries/portraits//${currentSelectedPicture}`)"/>
+          <img class="gallery-image" @click="overlayActive = false"
+               :src="require(`@/assets/galleries/portraits//${currentSelectedPicture}`)"/>
         </div>
       </v-overlay>
     </v-container>
@@ -72,7 +73,7 @@ export default class GalleryPortraitsComponent extends Vue {
     window.addEventListener("resize", this.recalculateWindowSize);
   }
 
-  public recalculateWindowSize (){
+  public recalculateWindowSize() {
     this.windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
   }
 

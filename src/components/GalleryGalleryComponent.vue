@@ -2,12 +2,14 @@
   <v-item-group>
     <v-container>
       <v-row>
-        <v-col cols="12">
+        <v-spacer/>
+        <v-col cols md="12" lg="12" xl="10" class="mt-5">
           <v-row>
             <v-col
                 md="4"
                 sm="6"
-                xs="12">
+                xs="12"
+                class="pl-0">
               <v-hover v-slot="{ hover }">
                 <v-card
                     class="d-flex align-center"
@@ -26,7 +28,7 @@
                         class="hover-button"
                         style="height: 100%; width: 800px;"
                     >
-                      <h1 class="hover-text">Imitaiton</h1>
+                      <h1 class="hover-text">Imitation</h1>
                     </div>
                   </v-expand-transition>
                 </v-card>
@@ -62,7 +64,8 @@
             <v-col
                 md="4"
                 sm="6"
-                xs="12">
+                xs="12"
+                class="pr-0">
               <v-hover v-slot="{ hover }">
                 <v-card
                     class="d-flex align-center"
@@ -89,7 +92,8 @@
             <v-col
                 md="4"
                 sm="6"
-                xs="12">
+                xs="12"
+                class="pl-0">
               <v-hover v-slot="{ hover }">
                 <v-card
                     class="d-flex align-center"
@@ -143,7 +147,8 @@
             <v-col
                 md="4"
                 sm="6"
-                xs="12">
+                xs="12"
+                class="pr-0">
               <v-hover v-slot="{ hover }">
                 <v-card
                     class="d-flex align-center"
@@ -169,6 +174,7 @@
             </v-col>
           </v-row>
         </v-col>
+        <v-spacer/>
       </v-row>
     </v-container>
   </v-item-group>

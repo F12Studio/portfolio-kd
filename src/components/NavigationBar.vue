@@ -1,5 +1,4 @@
 <template>
-
   <v-app-bar
       app
       color="#fff"
@@ -7,12 +6,16 @@
       fixed
       flat
   >
-    <v-col cols="1"></v-col>
-    <v-col cols="4" class="text-left" styel="padding-top: 20px; padding-bottom: 20px;">
+    <v-col cols
+           md="0"
+           lg="0"
+           xl="1"
+           class="pa-0"></v-col>
+    <v-col cols="4" class="text-left" style="padding-top: 25px; padding-bottom: 25px;">
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
-          style="width: 75%; height: 75%;"
+          style="width: 65%; height: 65%;"
       ></v-img>
     </v-col>
     <v-spacer/>
@@ -48,10 +51,12 @@
         <span class="navigation-buttons-text">GALLERY</span>
       </v-btn>
     </v-col>
-    <v-col cols="1"></v-col>
+    <v-col cols
+           md="0"
+           lg="0"
+           xl="1"
+           class="pa-0"></v-col>
   </v-app-bar>
-
-
 </template>
 
 <script lang="ts">

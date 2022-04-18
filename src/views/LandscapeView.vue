@@ -1,7 +1,16 @@
 <template>
   <v-container style="margin-bottom: 50px;">
     <v-row class="text-left">
-      <v-col cols="12 ml-3">
+      <v-col cols
+             md="0"
+             lg="0"
+             xl="1"
+             class="pa-0"></v-col>
+      <v-col cols
+             md="12"
+             lg="12"
+             xl="10"
+             class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Landscape</h1>
         <v-divider class="divider"></v-divider>
         <p class="text-page"> (Eigene Serie, 2018 - 2021). <br> Entspannen und einfach mal Sein, Innehalten und die
@@ -10,7 +19,7 @@
           doch wieder so stark und unaufhaltbar.
         </p>
       </v-col>
-      <v-col cols="12">
+      <v-col class="pa-0 mb-5">
         <gallery-landscape-component/>
       </v-col>
     </v-row>

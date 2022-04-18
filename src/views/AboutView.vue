@@ -4,21 +4,24 @@
       <v-col cols
              md="0"
              lg="0"
-             xl="1"></v-col>
+             xl="1"
+             class="pa-0"></v-col>
       <v-col cols
              md="12"
              lg="12"
-             xl="10">
-        <h1 class="mt-5 mb-2 title-page text-left">Hello, nice to meet you.</h1>
+             xl="10"
+             class="pa-0">
+        <h1 class="mt-10 mb-2 title-page text-left">Hello, nice to meet you.</h1>
         <v-divider class="divider"></v-divider>
       </v-col>
       <v-col cols
              md="0"
              lg="0"
-             xl="1"></v-col>
+             xl="1"
+             class="pa-0"></v-col>
       <v-row>
         <v-spacer/>
-        <v-col cols="5" class="mb-5 mt-5" style="align: left;">
+        <v-col cols="5" class="mb-5 mt-5 pa-0" style="align: left;">
           <img
               height="400px"
               width="auto"
@@ -26,7 +29,7 @@
         </v-col>
         <v-spacer/>
         <div class="vertical-center">
-          <v-col col="5">
+          <v-col col="5" class="ppa-0">
             <p class="title-page text-right" style="font-size: 44px; color: #424242;">»Fotografie ist für mich mehr <br>
               als nur ein Hobby«</p>
           </v-col>
@@ -35,7 +38,7 @@
       </v-row>
       <v-row>
         <v-spacer/>
-        <v-col cols="10" class="mb-5">
+        <v-col cols="10" class="mb-5 pa-0">
           <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
             Leidenschaft. <br>
             Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals noch einfach drauf los mit einer kleinen
@@ -57,7 +60,7 @@
       </v-row>
       <v-row>
         <v-spacer/>
-        <v-col cols="5">
+        <v-col cols="5" class="pa-0">
           <h1 class="mb-1 title-page">Equipment</h1>
           <p class="text-page"> Canon EOS 6D Mark ii
             <br>
@@ -69,7 +72,7 @@
             <br>
             Lightroom CC & Photoshop CC </p>
         </v-col>
-        <v-col cols="5" class="mb-2">
+        <v-col cols="5" class="mb-2 pa-0">
           <h1 class="mb-1 title-page">Referenzen</h1>
           <p class="text-page"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
             Wenderoth, erschienen im GU-Verlag
@@ -85,7 +88,11 @@
             <br> <br>
             Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both </p>
         </v-col>
-        <v-spacer/>
+        <v-col cols
+               md="0"
+               lg="0"
+               xl="1"
+               class="pa-0"></v-col>
       </v-row>
     </v-row>
   </v-container>
