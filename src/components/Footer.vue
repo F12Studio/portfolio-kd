@@ -9,15 +9,15 @@
             tile
             class="footer-main pa-7 ma-0 text-center"
         >
-          <h1 class="footer-text pb-4" style="font-size: 18px;">Kontakt</h1>
-          <v-card-text class="footer-text pa-0">
-            <p class="ma-0"><span class="mr-2">Katharina Düwel Fotografie</span> <strong
-                style="color: #424242;">I</strong> <span class="ml-2 mr-2">katharinaduewel@icloud.com</span> <strong
-                style="color: #212121;">I</strong> <span class="ml-2">0173 2188024</span></p>
+          <h1 class="footer-title pb-4">Kontakt</h1>
+          <v-card-text class="pa-0">
+            <p class="ma-0"><span class="mr-2 footer-text">Katharina Düwel Fotografie</span> <strong
+                style="color: #424242;">I</strong> <a href="mailto:katharinaduewel@icloud.com" class="footer-text mr-2 ml-2">katharinaduewel@icloud.com</a> <strong
+                style="color: #424242;">I</strong> <span class="ml-2 footer-text">+49 173 2188024</span></p>
 
 
           <v-divider style="width: 750px; border-color: #747474; opacity: 75%; display: inline-block;" class=""></v-divider>
-            <p class="ma-0 mt-2"><strong style="color: #424242;">© 2022</strong> by Katharina Düwel</p>
+            <p class="ma-0 mt-2 footer-text">©2022 by Katharina Düwel</p>
 
           </v-card-text>
         </v-card>
@@ -35,15 +35,22 @@ export default {
 <style scoped>
 .footer-main {
   background-color: #fff;
-  color: #424242;
   margin: 0;
   padding: 0;
 }
 
+.footer-title {
+  color: #424242;
+  opacity: 85%;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
 .footer-text {
   color: #424242;
-  opacity: 75%;
+  opacity: 65%;
   font-family: Poppins;
   font-size: 14px;
+  text-decoration: none;
 }
 </style>

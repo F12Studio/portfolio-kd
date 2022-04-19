@@ -2,7 +2,7 @@
   <v-app-bar
       app
       color="#fff"
-      height="110px"
+      height="100vh"
       fixed
       flat
   >
@@ -15,7 +15,7 @@
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
-          style="width: 65%; height: 65%;"
+          style="width: 60%; height: 60%;"
       ></v-img>
     </v-col>
     <v-spacer/>
@@ -69,18 +69,11 @@ export default class NavigationBar extends Vue {
 </script>
 
 <style>
-/*.navigation-main-text {
-  font-size: 20px;
-  font-family: "Signerica Medium";
-  color: #212121;
-}*/
-
 .navigation-buttons-text {
   font-size: 16px;
   letter-spacing: 3px;
   font-weight: 400;
   font-family: Poppins;
   color: #424242 !important;
-
 }
 </style>

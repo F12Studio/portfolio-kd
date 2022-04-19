@@ -26,7 +26,7 @@ export default class HomeView extends Vue {
 
 <style>
 .background-wrapper {
-  background-image: url("../../src/assets/galleries/title/titel5.jpg");
+  background-image: url("../../src/assets/galleries/title/titel6.jpg");
   height: 85vh;
   background-size: cover;
   background-position: center;

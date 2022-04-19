@@ -16,7 +16,7 @@
         <p class="text-page"> (Eigene Serie, 2018 - 2022). <br> Fliegende Ohren, glückliche Gesichter und einfach nur
           Spaß - das sind Hunde in Action. <br> Durch die Hunde bin ich zum Fotografieren gekommen und es ist immer noch
           meine größte Passion. Natürlich liebe ich alle Posen, egal, ob der Hund steht, sitzt oder liegt. <br> Doch
-          sobald es ans Rennen geht, zeigt sich der einzigartige Charakter der Fellnasen - es gibt nichts Schöneres auf der Welt!
+          sobald es ans Rennen geht, zeigt sich die pure Lebensfreude - es gibt nichts Schöneres auf der Welt!
         </p>
       </v-col>
       <v-col class="pa-0 mb-5">

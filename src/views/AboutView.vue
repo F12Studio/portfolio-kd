@@ -61,7 +61,7 @@
       <v-row>
         <v-spacer/>
         <v-col cols="5" class="pa-0">
-          <h1 class="mb-1 title-page">Equipment</h1>
+          <h1 class="mb-2 title-page">Equipment</h1>
           <p class="text-page"> Canon EOS 6D Mark ii
             <br>
             Canon 24-70mm f2.8 L USM
@@ -72,8 +72,8 @@
             <br>
             Lightroom CC & Photoshop CC </p>
         </v-col>
-        <v-col cols="5" class="mb-2 pa-0">
-          <h1 class="mb-1 title-page">Referenzen</h1>
+        <v-col cols="5" class="pa-0">
+          <h1 class="mb-2 title-page">Referenzen</h1>
           <p class="text-page"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
             Wenderoth, erschienen im GU-Verlag
             <br> <br>
@@ -88,11 +88,7 @@
             <br> <br>
             Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both </p>
         </v-col>
-        <v-col cols
-               md="0"
-               lg="0"
-               xl="1"
-               class="pa-0"></v-col>
+        <v-spacer/>
       </v-row>
     </v-row>
   </v-container>
