@@ -15,7 +15,7 @@
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
-          style="width: 60%; height: 60%;"
+          class="image-logo"
       ></v-img>
     </v-col>
     <v-spacer/>
@@ -75,5 +75,11 @@ export default class NavigationBar extends Vue {
   font-weight: 400;
   font-family: Poppins;
   color: #424242 !important;
+}
+
+.image-logo {
+  width: 60%;
+  height: 60%;
+  cursor: pointer;
 }
 </style>
