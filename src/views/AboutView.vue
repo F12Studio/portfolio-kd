@@ -20,7 +20,6 @@
              xl="1"
              class="pa-0"></v-col>
       <v-row>
-        <v-spacer/>
         <v-col cols
                md="6"
                lg="6"
@@ -31,22 +30,19 @@
               width="auto"
               :src="require(`@/assets/about_foto.png`)"/>
         </v-col>
-        <v-spacer/>
         <div class="vertical-center">
           <v-col col="5" class="pa-0">
             <p class="title-page text-right" style="font-size: 44px; color: #424242;">»Fotografie ist für mich mehr <br>
               als nur ein Hobby«</p>
           </v-col>
         </div>
-        <v-spacer/>
       </v-row>
-      <v-row>
+      <v-row class="ma-0">
         <v-col cols
                md="0"
                lg="0"
                xl="1"
                class="pa-0"></v-col>
-<!--        <v-spacer/>-->
         <v-col cols
                md="12"
                lg="12"
@@ -69,10 +65,8 @@
             weil es mir Spaß macht. Es geht mir viel mehr darum, besondere Momente
             einzufangen und Gefühle und Erinnerungen für immer festzuhalten. </p>
         </v-col>
-<!--        <v-spacer/>-->
       </v-row>
-      <v-row>
-        <v-spacer/>
+      <v-row class="ma-0">
         <v-col cols
                md="6"
                lg="6"
@@ -109,7 +103,6 @@
             <br> <br>
             Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both </p>
         </v-col>
-        <v-spacer/>
       </v-row>
     </v-row>
   </v-container>
