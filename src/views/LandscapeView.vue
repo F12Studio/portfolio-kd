@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-bottom: 50px;">
+  <v-container class="v-application mb-15">
     <v-row class="text-left">
       <v-col cols
              md="0"
@@ -13,7 +13,7 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Landscape</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page"> (Eigene Serie, 2018 - 2021). <br> Entspannen und einfach mal Sein, Innehalten und die
+        <p class="text-page mb-10"> (Eigene Serie, 2018 - 2021). <br> Entspannen und einfach mal Sein, Innehalten und die
           Stille genießen ... <br> Egal ob das atemberaubende Island, die schönen Dolomiten oder die guten Münchner
           Hausberge - in der Natur kann man Durchatmen. So ganz klein und nichtig fühlt man sich manchmal, aber dann
           doch wieder so stark und unaufhaltbar.
@@ -29,7 +29,6 @@
 
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
-import GalleryComponent from "@/components/GalleryLandscapeComponent.vue";
 import GalleryLandscapeComponent from "@/components/GalleryLandscapeComponent.vue";
 
 @Component({

@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-bottom: 50px;">
+  <v-container class="mb-15">
     <v-row class="text-left">
       <v-col cols
              md="0"
@@ -12,9 +12,9 @@
              xl="10"
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Gallery</h1>
-        <v-divider class="divider"></v-divider>
+        <v-divider class="divider mb-6"></v-divider>
       </v-col>
-      <v-col class="pa-0 mb-5">
+      <v-col class="pa-0">
         <gallery-gallery-component/>
       </v-col>
     </v-row>
@@ -28,7 +28,6 @@
 
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
-import GalleryComponent from "@/components/GalleryGalleryComponent.vue";
 import GalleryGalleryComponent from "@/components/GalleryGalleryComponent.vue";
 
 @Component({
@@ -40,20 +39,3 @@ export default class GalleryView extends Vue {
 
 }
 </script>
-
-<style>
-.gallery-image{
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  align-self: center;
-}
-
-.image-wrapper{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-;
-}
-</style>

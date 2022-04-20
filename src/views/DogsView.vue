@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-bottom: 50px;">
+  <v-container class="v-application mb-15">
     <v-row class="text-left">
       <v-col cols
              md="0"
@@ -13,7 +13,7 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Life is better with a dog</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page"> (Eigene Serie, 2018 - 2022). <br> Fliegende Ohren, glückliche Gesichter und einfach nur
+        <p class="text-page mb-10"> (Eigene Serie, 2018 - 2022). <br> Fliegende Ohren, glückliche Gesichter und einfach nur
           Spaß - das sind Hunde in Action. <br> Durch die Hunde bin ich zum Fotografieren gekommen und es ist immer noch
           meine größte Passion. Natürlich liebe ich alle Posen, egal, ob der Hund steht, sitzt oder liegt. <br> Doch
           sobald es ans Rennen geht, zeigt sich die pure Lebensfreude - es gibt nichts Schöneres auf der Welt!
@@ -29,7 +29,6 @@
 
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
-import GalleryComponent from "@/components/GalleryDogsComponent.vue";
 import GalleryDogsComponent from "@/components/GalleryDogsComponent.vue";
 
 @Component({

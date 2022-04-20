@@ -11,14 +11,11 @@
         >
           <h1 class="footer-title pb-4">Kontakt</h1>
           <v-card-text class="pa-0">
-            <p class="ma-0"><span class="mr-2 footer-text">Katharina Düwel Fotografie</span> <strong
-                style="color: #424242;">I</strong> <a href="mailto:katharinaduewel@icloud.com" class="footer-text mr-2 ml-2">katharinaduewel@icloud.com</a> <strong
-                style="color: #424242;">I</strong> <span class="ml-2 footer-text">+49 173 2188024</span></p>
-
-
-          <v-divider style="width: 750px; border-color: #747474; opacity: 75%; display: inline-block;" class=""></v-divider>
+            <p class="ma-0"><span class="mr-2 footer-text">Katharina Düwel Fotografie</span> <strong class="footer-slash">I</strong> <a href="mailto:katharinaduewel@icloud.com"
+                                                      class="footer-text mr-2 ml-2">katharinaduewel@icloud.com</a>
+              <strong class="footer-slash">I</strong> <span class="ml-2 footer-text">+49 173 2188024</span></p>
+            <v-divider class="divider-footer"></v-divider>
             <p class="ma-0 mt-2 footer-text">©2022 by Katharina Düwel</p>
-
           </v-card-text>
         </v-card>
       </v-col>
@@ -52,5 +49,17 @@ export default {
   font-family: Poppins;
   font-size: 14px;
   text-decoration: none;
+}
+
+.footer-slash {
+  color: #424242;
+  opacity: 85%;
+}
+
+.divider-footer {
+  width: 750px;
+  border-color: #424242;
+  opacity: 100%;
+  display: inline-block;
 }
 </style>

@@ -2,7 +2,7 @@
   <v-app>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <v-main>
-      <div class="v-application">
+      <div class="v-application pa-0">
         <NavigationBar/>
         <router-view/>
       </div>
@@ -51,7 +51,7 @@ export default Vue.extend({
 }
 
 .divider {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 15%;
   border-color: #424242 !important;
 }

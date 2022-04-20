@@ -1,5 +1,5 @@
 <template>
-  <v-container class="v-application" style="margin-bottom: 50px;">
+  <v-container class="v-application mb-15">
     <v-row>
       <v-col cols
              md="0"
@@ -21,7 +21,11 @@
              class="pa-0"></v-col>
       <v-row>
         <v-spacer/>
-        <v-col cols="5" class="mb-5 mt-5 pa-0" style="align: left;">
+        <v-col cols
+               md="6"
+               lg="6"
+               xl="5"
+               class="mb-10 mt-5 pa-0" style="align: left;">
           <img
               height="400px"
               width="auto"
@@ -29,7 +33,7 @@
         </v-col>
         <v-spacer/>
         <div class="vertical-center">
-          <v-col col="5" class="ppa-0">
+          <v-col col="5" class="pa-0">
             <p class="title-page text-right" style="font-size: 44px; color: #424242;">»Fotografie ist für mich mehr <br>
               als nur ein Hobby«</p>
           </v-col>
@@ -37,8 +41,17 @@
         <v-spacer/>
       </v-row>
       <v-row>
-        <v-spacer/>
-        <v-col cols="10" class="mb-5 pa-0">
+        <v-col cols
+               md="0"
+               lg="0"
+               xl="1"
+               class="pa-0"></v-col>
+<!--        <v-spacer/>-->
+        <v-col cols
+               md="12"
+               lg="12"
+               xl="10"
+               class="mb-10 pa-0">
           <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
             Leidenschaft. <br>
             Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals noch einfach drauf los mit einer kleinen
@@ -56,11 +69,15 @@
             weil es mir Spaß macht. Es geht mir viel mehr darum, besondere Momente
             einzufangen und Gefühle und Erinnerungen für immer festzuhalten. </p>
         </v-col>
-        <v-spacer/>
+<!--        <v-spacer/>-->
       </v-row>
       <v-row>
         <v-spacer/>
-        <v-col cols="5" class="pa-0">
+        <v-col cols
+               md="6"
+               lg="6"
+               xl="5"
+               class="pa-0">
           <h1 class="mb-2 title-page">Equipment</h1>
           <p class="text-page"> Canon EOS 6D Mark ii
             <br>
@@ -72,7 +89,11 @@
             <br>
             Lightroom CC & Photoshop CC </p>
         </v-col>
-        <v-col cols="5" class="pa-0">
+        <v-col cols
+               md="6"
+               lg="6"
+               xl="5"
+               class="pa-0">
           <h1 class="mb-2 title-page">Referenzen</h1>
           <p class="text-page"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
             Wenderoth, erschienen im GU-Verlag

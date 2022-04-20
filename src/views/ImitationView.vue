@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-bottom: 50px;">
+  <v-container class="v-application mb-15">
     <v-row class="text-left">
       <v-col cols
              md="0"
@@ -13,7 +13,7 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Imitation of an Idol</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Vorbild und
+        <p class="text-page mb-10">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Vorbild und
           Nachbild - mein erstes
           Fotoprojekt im Studium, und es ist immer noch eines meiner Favoriten. <br> Seine starken Bildern und der
           gesellschaftskritische Inhalt haben Marius SPerlich bekannt gemacht, sein Stil ist einzigartig. Ihn zu
@@ -29,7 +29,6 @@
 
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
-import GalleryComponent from "@/components/GalleryImitationComponent.vue";
 import GalleryImitationComponent from "@/components/GalleryImitationComponent.vue";
 
 @Component({

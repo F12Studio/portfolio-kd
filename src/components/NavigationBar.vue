@@ -8,18 +8,22 @@
   >
     <v-col cols
            md="0"
-           lg="0"
+           lg="1"
            xl="1"
            class="pa-0"></v-col>
-    <v-col cols="4" class="text-left" style="padding-top: 25px; padding-bottom: 25px;">
+    <v-col cols="4" class="text-left pt-5 pb-5 pl-0 pr-0">
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
           class="image-logo"
       ></v-img>
     </v-col>
-    <v-spacer/>
-    <v-col cols="4" class="text-right">
+    <v-col cols
+           md="4"
+           lg="2"
+           xl="2"
+           class="pa-0"></v-col>
+    <v-col cols="4" class="text-right pa-0">
       <v-btn
           class="mr-10 pa-0 navigation-buttons"
           rounded
@@ -47,15 +51,17 @@
           depressed
           plain
           @click="$router.push('gallery')"
+          style="margin-right: -7px;"
       >
         <span class="navigation-buttons-text">GALLERY</span>
       </v-btn>
     </v-col>
     <v-col cols
            md="0"
-           lg="0"
+           lg="1"
            xl="1"
-           class="pa-0"></v-col>
+           class="pa-0"
+    ></v-col>
   </v-app-bar>
 </template>
 
@@ -81,5 +87,6 @@ export default class NavigationBar extends Vue {
   width: 60%;
   height: 60%;
   cursor: pointer;
+  margin-left: -5px !important;
 }
 </style>

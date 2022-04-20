@@ -4,7 +4,7 @@
       <v-col cols="12" class="background-wrapper">
         <v-row>
           <v-spacer/>
-          <v-col cols="10">
+          <v-col cols="10 pa-0">
             <p class="title-white">
               <span class="animation">Stay focused.</span>
             </p>
