@@ -65,4 +65,15 @@ export default Vue.extend({
 .v-application {
   background-color: #eeeeee !important;
 }
+
+.image-wrapper{
+  text-align: center;
+}
+
+.gallery-image{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
 </style>

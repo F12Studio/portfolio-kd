@@ -2,7 +2,7 @@
   <v-app-bar
       app
       color="#fff"
-      height="100vh"
+      height="110px"
       fixed
       flat
   >
@@ -18,11 +18,7 @@
           class="image-logo"
       ></v-img>
     </v-col>
-    <v-col cols
-           md="4"
-           lg="2"
-           xl="2"
-           class="pa-0"></v-col>
+    <v-spacer/>
     <v-col cols="4" class="text-right pa-0">
       <v-btn
           class="mr-10 pa-0 navigation-buttons"
@@ -84,9 +80,8 @@ export default class NavigationBar extends Vue {
 }
 
 .image-logo {
-  width: 60%;
-  height: 60%;
+  width: 350px;
+  height: auto;
   cursor: pointer;
-  margin-left: -5px !important;
 }
 </style>

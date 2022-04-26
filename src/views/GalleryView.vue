@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mb-15">
+  <v-container class="mb-10">
     <v-row class="text-left">
       <v-col cols
              md="0"
