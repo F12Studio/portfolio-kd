@@ -1,8 +1,10 @@
 <template>
+
   <v-app-bar
       app
       color="#fff"
       height="110px"
+      class="header"
       fixed
       flat
   >
@@ -10,8 +12,8 @@
            md="0"
            lg="1"
            xl="1"
-           class="pa-0"></v-col>
-    <v-col cols="4" class="text-left pt-5 pb-5 pl-0 pr-0">
+           class="pa-0 ma-0"></v-col>
+    <v-col cols="4" class="text-left pa-0">
       <v-img
           :src="require(`@/assets/logo3.png`)"
           @click="$router.push('/')"
@@ -47,7 +49,6 @@
           depressed
           plain
           @click="$router.push('gallery')"
-          style="margin-right: -7px;"
       >
         <span class="navigation-buttons-text">GALLERY</span>
       </v-btn>
@@ -71,6 +72,10 @@ export default class NavigationBar extends Vue {
 </script>
 
 <style>
+.header{
+  padding: 0 !important;
+}
+
 .navigation-buttons-text {
   font-size: 16px;
   letter-spacing: 3px;

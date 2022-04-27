@@ -2,7 +2,7 @@
   <v-app>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <v-main>
-      <div class="v-application pa-0">
+      <div class="v-application">
         <NavigationBar/>
         <router-view/>
       </div>
@@ -32,6 +32,11 @@ export default Vue.extend({
 @font-face {
   font-family: "Signerica Medium";
   src: local("Signerica Medium"),   url(fonts/Signerica_Medium.ttf) format("truetype");
+}
+
+.header {
+  padding: 0!important;
+  display: inline-block;
 }
 
 .text-page {

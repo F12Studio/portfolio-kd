@@ -114,7 +114,9 @@
             <br> <br>
             Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both
             <br> <br>
-            Praktikum bei GentlePup in Singapur 2019</p>
+            Praktikum bei GentlePup in Singapur (August 2019)
+            <br> <br>
+            Fotografische Begleitung für "Women in Business" (LMU, Oktober 2019 bis März 2020)</p>
         </v-col>
       </v-row>
     </v-row>
