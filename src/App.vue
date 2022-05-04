@@ -14,7 +14,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import NavigationBar from "@/components/NavigationBar.vue";
-import Footer from "@/components/Footer.vue"
+import Footer from "@/components/Footer.vue";
+import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
 export default Vue.extend({
   name: 'App',
@@ -24,28 +25,41 @@ export default Vue.extend({
   }),
   mounted() {
     console.log(Vue.version);
-  }
+  },
+
 });
+
+
 </script>
 
 <style>
 @font-face {
   font-family: "Signerica Medium";
-  src: local("Signerica Medium"),   url(fonts/Signerica_Medium.ttf) format("truetype");
+  src: local("Signerica Medium"), url(fonts/Signerica_Medium.ttf) format("truetype");
 }
 
 .header {
-  padding: 0!important;
+  padding: 0 !important;
   display: inline-block;
 }
 
 .text-page {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 2px;
   font-weight: 300;
   font-family: Poppins;
   line-height: 1.8;
   color: #424242;
+}
+
+.info-text-page {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-family: Poppins;
+  line-height: 1.8;
+  color: #424242;
+  opacity: 65%;
 }
 
 .title-page {
@@ -67,15 +81,21 @@ export default Vue.extend({
   align-items: center;
 }
 
+.vertical-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
 .v-application {
   background-color: #eeeeee !important;
 }
 
-.image-wrapper{
+.image-wrapper {
   text-align: center;
 }
 
-.gallery-image{
+.gallery-image {
   width: auto;
   height: auto;
   max-width: 100%;

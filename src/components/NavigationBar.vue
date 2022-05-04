@@ -8,10 +8,7 @@
       fixed
       flat
   >
-    <v-col cols
-           md="0"
-           lg="1"
-           xl="1"
+    <v-col cols="1"
            class="pa-0 ma-0"></v-col>
     <v-col cols="4" class="text-left pa-0">
       <v-img
@@ -21,7 +18,7 @@
       ></v-img>
     </v-col>
     <v-spacer/>
-    <v-col cols="4" class="text-right pa-0">
+    <v-col cols="6" class="text-right pa-0">
       <v-btn
           class="mr-10 pa-0 navigation-buttons"
           rounded
@@ -43,7 +40,7 @@
         <span class="navigation-buttons-text">ABOUT</span>
       </v-btn>
       <v-btn
-          class="pa-0 navigation-buttons"
+          class="mr-10 pa-0 navigation-buttons"
           rounded
           color="#fff"
           depressed
@@ -51,6 +48,26 @@
           @click="$router.push('gallery')"
       >
         <span class="navigation-buttons-text">GALLERY</span>
+      </v-btn>
+      <v-btn
+          class="mr-10 pa-0 navigation-buttons"
+          rounded
+          color="#fff"
+          depressed
+          plain
+          @click="$router.push('film')"
+      >
+        <span class="navigation-buttons-text">FILM</span>
+      </v-btn>
+      <v-btn
+          class="pa-0 navigation-buttons"
+          rounded
+          color="#fff"
+          depressed
+          plain
+          @click="$router.push('design')"
+      >
+        <span class="navigation-buttons-text">DESIGN</span>
       </v-btn>
     </v-col>
     <v-col cols

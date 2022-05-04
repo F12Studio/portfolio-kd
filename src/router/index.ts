@@ -9,7 +9,8 @@ import PortraitsView from "@/views/PortraitsView.vue";
 import TattooView from "@/views/TattooView.vue";
 import CityView from "@/views/CityView.vue";
 import LandscapeView from "@/views/LandscapeView.vue";
-
+import FilmView from "@/views/FilmView.vue";
+import DesignView from "@/views/DesignView.vue";
 Vue.use(VueRouter)
 
 
@@ -61,6 +62,16 @@ const router = new VueRouter({
             path: '/landscape',
             name: 'landscape',
             component: LandscapeView
+        },
+        {
+            path: '/film',
+            name: 'film',
+            component: FilmView
+        },
+        {
+            path: '/design',
+            name: 'design',
+            component: DesignView
         },
     ],
     scrollBehavior: function () {

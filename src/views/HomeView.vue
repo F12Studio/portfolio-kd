@@ -1,7 +1,7 @@
 <template>
   <v-row class="pa-0 ma-0">
     <v-col cols="12" class="background-wrapper">
-      <v-row class="ma-0">
+      <v-row>
         <v-col cols="1"></v-col>
         <v-col cols="10 pa-0">
           <p class="title-white">
@@ -25,7 +25,7 @@ export default class HomeView extends Vue {
 <style>
   .background-wrapper {
     background-image: url("../../src/assets/galleries/title/titel6.jpg");
-    height: 85vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
   }

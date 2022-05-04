@@ -21,9 +21,9 @@
                xl="1"
                class="pa-0"></v-col>
         <v-col cols
-               md="6"
-               lg="6"
-               xl="5"
+               md="4"
+               lg="4"
+               xl="4"
                class="mb-10 mt-5 pa-0" style="align: left;">
           <img
               height="400px"
@@ -32,9 +32,9 @@
         </v-col>
         <v-spacer/>
         <div class="vertical-center">
-          <v-col col="5" class="pa-0">
-            <p class="title-page text-right" style="font-size: 44px; color: #424242;">»Fotografie ist für mich mehr <br>
-              als nur ein Hobby«</p>
+          <v-col col="6" class="pa-0">
+            <p class="title-page text-right" style="font-size: 44px; color: #424242;">»You don't take a photograph. <br>
+              You make it.«</p>
           </v-col>
         </div>
         <v-col cols
@@ -50,9 +50,9 @@
                xl="1"
                class="pa-0"></v-col>
         <v-col cols
-               md="12"
-               lg="12"
-               xl="10"
+               md="10"
+               lg="10"
+               xl="8"
                class="mb-10 pa-0">
           <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
             Leidenschaft. <br>

@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scooped>
 .footer-main {
   background-color: #fff;
   margin: 0;
@@ -44,10 +44,10 @@ export default {
 }
 
 .footer-text {
-  color: #424242;
+  color: #424242 !important;
   opacity: 65%;
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration: none;
 }
 
