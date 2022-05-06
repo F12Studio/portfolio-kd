@@ -31,7 +31,7 @@
                 dark
                 tile
                 flat
-                :img="require(`@/assets/making_of_title.png`)"
+                :img="require(`@/assets/film/making_of_title.png`)"
                 height="400"
                 width="600"
                 href="https://www.youtube.com/watch?v=Vcro9gBUYM8"
@@ -51,8 +51,8 @@
         </v-col>
         <div class="vertical-bottom">
           <v-col class="pa-0">
-            <p class="title-page text-left" style="color: #424242;">Analoge Fotografie</p>
-            <p class="text-page text-left">Making Of von einem Unterrichtstag (2. Semester, 2021).<br> Im Rahmen eines
+            <p class="title-page text-left" style="color: #424242;">Analoge Fotografie - Making Of</p>
+            <p class="text-page text-left">Vertiefung Fotografie und Bewegtbild (2. Semester, 2021).<br> Im Rahmen eines
               Kurses durften wir uns mit der <br>analogen Fotografie beschäftigen und haben dies <br>in kurzen Videos
               festgehalten.</p>
             <span class="info-text-page mr-2">Kamera</span>
@@ -78,7 +78,7 @@
                 dark
                 tile
                 flat
-                :img="require(`@/assets/verhoer_title2.png`)"
+                :img="require(`@/assets/film/verhoer_title2.png`)"
                 height="400"
                 width="600"
                 href="https://www.instagram.com/p/CdHg_QMt9Nx/"
@@ -98,8 +98,8 @@
         </v-col>
         <div class="vertical-bottom">
           <v-col class="pa-0">
-            <p class="title-page text-left" style="color: #424242;">Wahnsinn⁶ - Episode</p>
-            <p class="text-page text-left">Episode aus einer Serie (3. Semester, 2021).<br> In Wahnsinn⁶ begleiten
+            <p class="title-page text-left" style="color: #424242;">Wahnsinn⁶ - Das Verhör</p>
+            <p class="text-page text-left">Interdisciplinary Project (3. Semester, 2022).<br> In Wahnsinn⁶ begleiten
               wir das Leben zweier WGs,<br>die unterschhiedlicher nicht sein könnten.</p>
             <span class="info-text-page mr-2">Drehbuch</span> <strong class="footer-slash">I</strong> <span
               class="info-text-page mr-2 ml-2">Kamera</span>
@@ -125,7 +125,7 @@
                 dark
                 tile
                 flat
-                :img="require(`@/assets/bengrund.jpg`)"
+                :img="require(`@/assets/film/bengrund.jpg`)"
                 height="400"
                 width="600"
                 href="https://www.youtube.com/watch?v=AHWSiRnCApI"
@@ -159,23 +159,13 @@
 
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
-import FilmComponent from "@/components/FilmComponent.vue";
 
 @Component({
   components: {
-    FilmComponent,
+
   }
 })
 export default class FilmView extends Vue {
 
 }
 </script>
-
-<style>
-.material-symbols-outlined {
-  font-variation-settings: 'FILL' 1,
-  'wght' 700,
-  'GRAD' 200,
-  'opsz' 100
-}
-</style>

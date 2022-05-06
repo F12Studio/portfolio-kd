@@ -45,9 +45,9 @@
           color="#fff"
           depressed
           plain
-          @click="$router.push('gallery')"
+          @click="$router.push('photography')"
       >
-        <span class="navigation-buttons-text">GALLERY</span>
+        <span class="navigation-buttons-text">PHOTOGRAPHY</span>
       </v-btn>
       <v-btn
           class="mr-10 pa-0 navigation-buttons"

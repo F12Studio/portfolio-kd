@@ -46,12 +46,9 @@ export default class GalleryLandscapeComponent extends Vue {
   private windowSize = 'height: ' + (window.innerHeight - 100) + 'px; width: ' + (window.innerWidth - 100) + 'px;';
 
   private images = [
-    'landscape-01.jpg',
-    'landscape-02.jpg',
     'landscape-03.jpg',
+    'landscape-02.jpg',
     'landscape-04.jpg',
-    'landscape-05.jpg',
-    'landscape-06.jpg',
     'landscape-07.jpg',
     'landscape-08.jpg',
     'landscape-09.jpg',

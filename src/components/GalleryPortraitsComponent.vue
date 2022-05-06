@@ -55,12 +55,11 @@ export default class GalleryPortraitsComponent extends Vue {
     'portraits-07.jpg',
     'portraits-08.jpg',
     'portraits-09.jpg',
-    'portraits-10.jpg',
-    'portraits-11.jpg',
+
     'portraits-12.jpg',
     'portraits-13.jpg',
     'portraits-14.jpg',
-    'portraits-15.jpg',
+
   ]
 
   public setCurrentPicture(image: string) {

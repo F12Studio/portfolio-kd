@@ -11,7 +11,7 @@
              lg="12"
              xl="10"
              class="pa-0">
-        <h1 class="mt-10 mb-2 title-page">Gallery</h1>
+        <h1 class="mt-10 mb-2 title-page">Photography</h1>
         <v-divider class="divider mb-6"></v-divider>
       </v-col>
       <v-col class="pa-0">

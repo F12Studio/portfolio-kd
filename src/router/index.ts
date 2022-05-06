@@ -11,6 +11,10 @@ import CityView from "@/views/CityView.vue";
 import LandscapeView from "@/views/LandscapeView.vue";
 import FilmView from "@/views/FilmView.vue";
 import DesignView from "@/views/DesignView.vue";
+import AlbumView from "@/views/AlbumView.vue";
+import CMYKartenView from "@/views/CMYKartenView.vue";
+import CommuniTeaView from "@/views/CommuniTeaView.vue";
+
 Vue.use(VueRouter)
 
 
@@ -29,8 +33,8 @@ const router = new VueRouter({
             component: AboutView
         },
         {
-            path: '/gallery',
-            name: 'gallery',
+            path: '/photography',
+            name: 'photography',
             component: GalleryView
         },
         {
@@ -72,6 +76,21 @@ const router = new VueRouter({
             path: '/design',
             name: 'design',
             component: DesignView
+        },
+        {
+            path: '/album',
+            name: 'album',
+            component: AlbumView
+        },
+        {
+            path: '/cmykarten',
+            name: 'cmykarten',
+            component: CMYKartenView
+        },
+        {
+            path: '/communitea',
+            name: 'communitea',
+            component: CommuniTeaView
         },
     ],
     scrollBehavior: function () {

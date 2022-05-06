@@ -52,14 +52,11 @@ export default class GalleryDogsComponent extends Vue {
     'dogs-04.jpg',
     'dogs-05.jpg',
     'dogs-06.jpg',
-    'dogs-07.jpg',
     'dogs-08.jpg',
     'dogs-09.jpg',
-    'dogs-10.jpg',
     'dogs-11.jpg',
     'dogs-12.jpg',
     'dogs-13.jpg',
-    'dogs-14.jpg',
     'dogs-15.jpg',
   ]
 

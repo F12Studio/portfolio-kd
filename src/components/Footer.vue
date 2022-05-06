@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scooped>
+<style scoped>
 .footer-main {
   background-color: #fff;
   margin: 0;
@@ -58,8 +58,8 @@ export default {
 
 .divider-footer {
   width: 750px;
-  border-color: #424242;
-  opacity: 100%;
+  border-color: #424242 !important;
+  opacity: 25%;
   display: inline-block;
 }
 </style>

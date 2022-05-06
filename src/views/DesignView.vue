@@ -1,5 +1,5 @@
 <template>
-  <v-container class="v-application mb-10">
+  <v-container class="v-application mb-15">
     <v-row>
       <v-col cols
              md="0"
@@ -23,54 +23,42 @@
         <v-col cols
                md="6"
                lg="6"
-               xl="5"
-               class="mb-10 mt-5 pa-0" style="align: left;">
-          <img
-              height="400px"
-              width="auto"
-              :src="require(`@/assets/about_foto.png`)"/>
+               xl="4"
+               class="pl-0 pb-0 pt-0 pr-10">
+          <v-hover v-slot="{ hover }">
+            <v-card
+                class="d-flex align-center"
+                dark
+                tile
+                flat
+                :img="require(`@/assets/design/cd_title.png`)"
+                height="400"
+                width="600"
+                @click="$router.push('album')"
+            >
+              <v-expand-transition>
+                <div
+                    v-if="hover"
+                    class="hover-button"
+                    style="height: 100%; width: 800px;"
+                >
+                  <h1 class="hover-text">See more</h1>
+                </div>
+              </v-expand-transition>
+            </v-card>
+          </v-hover>
         </v-col>
-        <v-spacer/>
-        <div class="vertical-center">
-          <v-col col="5" class="pa-0">
-            <p class="title-page text-right" style="font-size: 44px; color: #424242;">»Fotografie ist für mich mehr <br>
-              als nur ein Hobby«</p>
+        <div class="vertical-bottom">
+          <v-col class="pa-0">
+            <p class="title-page text-left" style="color: #424242;">Dreams and Disgust - Album Booklet</p>
+            <p class="text-page text-left">(eigenes Projekt, 2021).<br> Gestaltung eines Covers und Booklets für die
+              neue CD<br>der Münchner Indie-Band
+              Dirty Red Bandanas.</p>
+            <span class="info-text-page mr-2">Adobe Illustrator</span>
+            <strong class="footer-slash">I</strong> <span class="info-text-page ml-2">Adobe InDesign</span>
           </v-col>
         </div>
-        <v-col cols
-               md="0"
-               lg="0"
-               xl="1"
-               class="pa-0"></v-col>
-      </v-row>
-      <v-row class="ma-0">
-        <v-col cols
-               md="0"
-               lg="0"
-               xl="1"
-               class="pa-0"></v-col>
-        <v-col cols
-               md="10"
-               lg="10"
-               xl="8"
-               class="mb-10 pa-0">
-          <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
-            Leidenschaft. <br>
-            Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals noch einfach drauf los mit einer kleinen
-            Digitalkamera. <br>
-            Durch meinen Pflegehund Sammy, den ich seit über neun Jahren kenne und der mir als Model seither immer
-            geduldig und motiviert zur Seite steht, habe ich die Fotografie als Hobby kennen und lieben gelernt.
-            So kam es, dass ich mit 13 Jahren das erste mal eine Spiegelreflexkamera in den Händen hielt, und kurze
-            Zeit später zog meine erste eigene Kamera ein. <br>
-            Es dauerte nicht lange, und ich wusste: Fotografieren ist nicht nur ein Hobby für mich. Es ist viel mehr
-            als das, und da fiel die Entscheidung, diese Leidenschaft professionell zu betreiben und der Berufswunsch
-            als Fotografin wuchs - und wächst auch heute immer noch. <br>
-            Ich konnte durch verschiedenste Shootings viel Erfahrung sammeln, habe dadurch ein gutes Auge für schöne
-            Locations entwickelt und weiß, wie ich Menschen, Tiere und Landschaften ins beste Licht rücke. Ich
-            fotografiere nicht nur,
-            weil es mir Spaß macht. Es geht mir viel mehr darum, besondere Momente
-            einzufangen und Gefühle und Erinnerungen für immer festzuhalten. </p>
-        </v-col>
+        <v-spacer/>
       </v-row>
       <v-row class="ma-0">
         <v-col cols
@@ -81,43 +69,88 @@
         <v-col cols
                md="6"
                lg="6"
-               xl="5"
-               class="pa-0">
-          <h1 class="mb-2 title-page">Equipment</h1>
-          <p class="text-page"> Canon EOS 6D Mark ii
-            <br>
-            Canon 24-70mm f2.8 L USM
-            <br>
-            Canon 135mm f2 L USM
-            <br>
-            Canon 70-200mm f2.8 L USM
-            <br>
-            Lightroom CC & Photoshop CC </p>
+               xl="4"
+               class="pl-0 pb-0 pt-10 pr-10">
+          <v-hover v-slot="{ hover }">
+            <v-card
+                class="d-flex align-center"
+                dark
+                tile
+                flat
+                :img="require(`@/assets/design/spielkarte_titel.jpg`)"
+                height="400"
+                width="600"
+                @click="$router.push('cmykarten')"
+            >
+              <v-expand-transition>
+                <div
+                    v-if="hover"
+                    class="hover-button"
+                    style="height: 100%; width: 800px;"
+                >
+                  <h1 class="hover-text">See more</h1>
+                </div>
+              </v-expand-transition>
+            </v-card>
+          </v-hover>
         </v-col>
+        <div class="vertical-bottom">
+          <v-col class="pa-0">
+            <p class="title-page text-left" style="color: #424242;">CMYKarten</p>
+            <p class="text-page text-left">Kreativwerkzeuge (2. Semester, 2021).<br> Gestaltung von Spielkarten mit
+              eigenen Illustrationen für<br>Bube, Dame, König und Joker im CMYK-Stil.</p>
+            <span class="info-text-page mr-2">Adobe Illustrator</span> <strong class="footer-slash">I</strong> <span
+              class="info-text-page ml-2">Adobe InDesign</span>
+          </v-col>
+        </div>
+        <v-spacer/>
+      </v-row>
+      <v-row class="ma-0">
+        <v-col cols
+               md="0"
+               lg="0"
+               xl="1"
+               class="pa-0"></v-col>
         <v-col cols
                md="6"
                lg="6"
-               xl="5"
-               class="pa-0">
-          <h1 class="mb-2 title-page">Referenzen</h1>
-          <p class="text-page"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
-            Wenderoth, erschienen im GU-Verlag
-            <br> <br>
-            Kooperation mit der Hundefuttermarke "Goood Dog"
-            (Mai 2018 bis Mai 2019)
-            <br> <br>
-            Veröffentlichung in der September-Ausgabe 2018 der British Vogue
-            <br> <br>
-            Veröffentlichung in "Entspannt draußen - Wie du die Spaziergänge mit deinem Hund wieder genießen kannst"
-            von
-            Sarah Both
-            <br> <br>
-            Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both
-            <br> <br>
-            Praktikum bei GentlePup in Singapur (August 2019)
-            <br> <br>
-            Fotografische Begleitung für "Women in Business" (LMU, Oktober 2019 bis März 2020)</p>
+               xl="4"
+               class="pl-0 pb-0 pt-10 pr-10">
+          <v-hover v-slot="{ hover }">
+            <v-card
+                class="d-flex align-center"
+                dark
+                tile
+                flat
+                :img="require(`@/assets/design/website_tee.jpg`)"
+                height="400"
+                width="600"
+                @click="$router.push('communitea')"
+            >
+              <v-expand-transition>
+                <div
+                    v-if="hover"
+                    class="hover-button"
+                    style="height: 100%; width: 800px;"
+                >
+                  <h1 class="hover-text">See more</h1>
+                </div>
+              </v-expand-transition>
+            </v-card>
+          </v-hover>
         </v-col>
+        <div class="vertical-bottom">
+          <v-col class="pa-0">
+            <p class="title-page text-left" style="color: #424242;">CommuniTea - Website Design</p>
+            <p class="text-page text-left">Online Medien (2. Semester, 2021).<br> Gestaltung einer fiktiven interaktiven
+              Homepage für einen
+              <br>Teeshop inklusive Dokumentation in PDF-Format.</p>
+            <span class="info-text-page mr-2">Adobe Illustrator</span> <strong class="footer-slash">I</strong> <span
+              class="info-text-page ml-2 mr-2">Adobe InDesign</span>
+            <strong class="footer-slash">I</strong> <span class="info-text-page ml-2">Adobe XD</span>
+          </v-col>
+        </div>
+        <v-spacer/>
       </v-row>
     </v-row>
   </v-container>
@@ -126,8 +159,10 @@
 <script lang="ts">
 import {Component, Vue} from "vue-property-decorator";
 
-@Component
-export default class DesignView extends Vue {
+@Component({
+  components: {}
+})
+export default class FilmView extends Vue {
 
 }
 </script>

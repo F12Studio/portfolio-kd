@@ -51,7 +51,7 @@
                class="pa-0"></v-col>
         <v-col cols
                md="10"
-               lg="10"
+               lg="12"
                xl="8"
                class="mb-10 pa-0">
           <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große

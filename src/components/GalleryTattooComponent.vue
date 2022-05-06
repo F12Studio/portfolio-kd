@@ -52,13 +52,10 @@ export default class GalleryTattooComponent extends Vue {
     'tattoo-04.jpg',
     'tattoo-05.jpg',
     'tattoo-06.jpg',
-    'tattoo-07.jpg',
-    'tattoo-08.jpg',
     'tattoo-09.jpg',
     'tattoo-10.jpg',
     'tattoo-11.jpg',
     'tattoo-12.jpg',
-    'tattoo-13.jpg',
     'tattoo-14.jpg',
     'tattoo-15.jpg',
   ]

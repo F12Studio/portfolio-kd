@@ -155,7 +155,7 @@
                     dark
                     tile
                     flat
-                    :img="require(`@/assets/galleries/landscape/landscape-01.jpg`)"
+                    :img="require(`@/assets/galleries/landscape/landscape-03.jpg`)"
                     height="400"
                     width="600"
                     @click="$router.push('landscape')"
@@ -180,7 +180,7 @@
   </v-item-group>
 </template>
 
-<style scoped>
+<style>
 
 .hover-button {
   display: flex;
