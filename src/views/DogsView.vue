@@ -1,6 +1,6 @@
 <template>
   <v-container class="v-application mb-10">
-    <v-row class="text-left">
+    <v-row class="text-left ma-0">
       <v-col cols
              md="0"
              lg="0"
