@@ -15,7 +15,7 @@
              class="pa-0 ma-0"></v-col>
       <v-col cols lg="5" xl="3" class="text-left pa-0">
         <v-img
-            :src="require(`@/assets/logo3.png`)"
+            :src="require(`@/assets/logo3-klein.png`)"
             @click="$router.push('/')"
             class="image-logo"
         ></v-img>
