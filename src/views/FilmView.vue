@@ -56,7 +56,7 @@
               Kurses durften wir uns mit der <br>analogen Fotografie beschäftigen und haben dies <br>in kurzen Videos
               festgehalten.</p>
             <span class="info-text-page mr-2">Kamera</span>
-            <strong class="footer-slash">I</strong> <span class="info-text-page ml-2">Schnitt</span>
+            <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
           </v-col>
         </div>
         <v-spacer/>
@@ -101,9 +101,9 @@
             <p class="title-page text-left" style="color: #424242;">Wahnsinn⁶ - Das Verhör</p>
             <p class="text-page text-left">Interdisciplinary Project (3. Semester, 2022).<br> In Wahnsinn⁶ begleiten
               wir das Leben zweier WGs,<br>die unterschhiedlicher nicht sein könnten.</p>
-            <span class="info-text-page mr-2">Drehbuch</span> <strong class="footer-slash">I</strong> <span
-              class="info-text-page mr-2 ml-2">Kamera</span>
-            <strong class="footer-slash">I</strong> <span class="info-text-page ml-2">Schnitt</span>
+            <span class="info-text-page mr-2">Drehbuch</span> <span class="footer-slash">I</span> <span
+              class="info-text-page ml-2 mr-2">Kamera</span>
+            <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
           </v-col>
         </div>
         <v-spacer/>
@@ -148,7 +148,7 @@
             <p class="title-page text-left" style="color: #424242;">Interview mit Benjamin Grund</p>
             <p class="text-page text-left">Business Photography (4. Semester, 2022).<br> Kurzes Interview mit Benjamin Grund,<br>Sänger und Besitzer eines Motorradhelmgeschäftes.</p>
             <span class="info-text-page mr-2">Kamera</span>
-            <strong class="footer-slash">I</strong> <span class="info-text-page ml-2">Schnitt</span>
+            <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
           </v-col>
         </div>
         <v-spacer/>
