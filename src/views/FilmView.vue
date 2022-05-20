@@ -125,7 +125,7 @@
                 dark
                 tile
                 flat
-                :img="require(`@/assets/film/bengrund.jpg`)"
+                :img="require(`@/assets/film/bengrund3.jpg`)"
                 height="400"
                 width="600"
                 href="https://www.youtube.com/watch?v=AHWSiRnCApI"
