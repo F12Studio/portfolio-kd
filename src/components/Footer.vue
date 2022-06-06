@@ -38,7 +38,7 @@ export default {
 
 .footer-title {
   color: #424242;
-  opacity: 85%;
+  opacity: 65%;
   font-family: Poppins;
   font-size: 18px;
 }

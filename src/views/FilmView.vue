@@ -43,7 +43,7 @@
                     class="hover-button"
                     style="height: 100%; width: 800px;"
                 >
-                  <v-icon size="150px" color="#eeeeee">play_circle</v-icon>
+                  <v-icon size="100px" color="#eeeeee">play_circle</v-icon>
                 </div>
               </v-expand-transition>
             </v-card>
@@ -90,7 +90,7 @@
                     class="hover-button"
                     style="height: 100%; width: 800px;"
                 >
-                  <v-icon size="150px" color="#eeeeee">play_circle</v-icon>
+                  <v-icon size="100px" color="#eeeeee">play_circle</v-icon>
                 </div>
               </v-expand-transition>
             </v-card>
@@ -128,7 +128,7 @@
                 :img="require(`@/assets/film/bengrund3.jpg`)"
                 height="400"
                 width="600"
-                href="https://www.youtube.com/watch?v=AHWSiRnCApI"
+                href="https://youtu.be/xus6p2H4sLY"
                 target="_blank"
             >
               <v-expand-transition>
@@ -137,7 +137,7 @@
                     class="hover-button"
                     style="height: 100%; width: 800px;"
                 >
-                  <v-icon size="150px" color="#eeeeee">play_circle</v-icon>
+                  <v-icon size="100px" color="#eeeeee">play_circle</v-icon>
                 </div>
               </v-expand-transition>
             </v-card>

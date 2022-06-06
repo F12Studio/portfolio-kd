@@ -97,9 +97,9 @@ export default class NavigationBar extends Vue {
 }
 
 .navigation-buttons-text {
-  font-size: 16px;
-  letter-spacing: 3px;
-  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: 300;
   font-family: Poppins;
   color: #424242 !important;
 }

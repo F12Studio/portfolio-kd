@@ -54,7 +54,7 @@
                lg="12"
                xl="8"
                class="mb-10 pa-0">
-          <p class="text-page">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
+          <p class="text-page text-justify">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
             Leidenschaft. <br>
             Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals noch einfach drauf los mit einer kleinen
             Digitalkamera. <br>
@@ -100,7 +100,7 @@
                xl="5"
                class="pa-0">
           <h1 class="mb-2 title-page">Referenzen</h1>
-          <p class="text-page"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
+          <p class="text-page teyt-justify"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
             Wenderoth, erschienen im GU-Verlag
             <br> <br>
             Kooperation mit der Hundefuttermarke "Goood Dog"
