@@ -84,7 +84,7 @@
                lg="6"
                xl="4"
                class="pa-0">
-          <h1 class="mb-2 title-page">Equipment</h1>
+          <h1 class="mb-5 title-page">Equipment</h1>
           <p class="text-page"> Canon EOS 6D Mark ii
             <br>
             Canon 24-70mm f2.8 L USM
@@ -100,7 +100,7 @@
                lg="6"
                xl="4"
                class="pa-0">
-          <h1 class="mb-2 title-page">Referenzen</h1>
+          <h1 class="mb-5 title-page">Referenzen</h1>
           <p class="text-page text-left"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" (Julia
             Wenderoth, erschienen im GU-Verlag)
             <br> <br>
