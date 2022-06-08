@@ -13,11 +13,9 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Portraits & Couples</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page mb-10">(Eigene Serie, 2019 - 2022). <br> Auch wenn ich mit der Tierfotografie begonnen habe, bin
-          ich relativ schnell zur Portraitfotografie gekommen. <br> Es ist nochmal eine ganz andere Herausforderung, der
-          ich mich sehr gerne stelle und so imemr weiter an mir arbeiten kann. <br> Abgesehen von normalen Portraits und
-          Couple-Shootings arbeite ich auch sehr gerne mit Photoshop, um die reale und fiktive Welt miteinander zu
-          verbinden. </p>
+        <p class="text-page mb-10">(Eigene Serie, 2019 - 2022). <br> Portraitfotografie ist meiner Meinung nach eine der
+          Königsdisziplinen beim Fotografieren. <br>Die menschlichen Emotionen einzufangen, ohne dass es gestellt wirkt,
+          ist eine Kunst für sich. <br>Aus diesem Grund ist jedes Shooting eine Challenge, an der ich immer mehr wachsen kann.</p>
       </v-col>
       <v-col class="pa-0 mb-5">
         <gallery-portraits-component/>

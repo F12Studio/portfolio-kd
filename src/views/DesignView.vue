@@ -52,7 +52,7 @@
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">Dreams and Disgust - Album Booklet</p>
             <p class="text-page text-left">(eigenes Projekt, 2021).<br> Gestaltung eines Covers und Booklets für die
-              neue CD<br>der Münchner Indie-Band
+              neue <br>CD der Münchner Indie-Band
               Dirty Red Bandanas.</p>
             <span class="info-text-page mr-2">Adobe Illustrator</span>
             <span class="footer-slash">I</span> <span class="info-text-page ml-2">Adobe InDesign</span>
@@ -98,7 +98,7 @@
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">CMYKarten</p>
             <p class="text-page text-left">Kreativwerkzeuge (2. Semester, 2021).<br> Gestaltung von Spielkarten mit
-              eigenen Illustrationen für<br>Bube, Dame, König und Joker im CMYK-Stil.</p>
+              eigenen Illustrationen für<br>Bube, Dame, König, Joker und Rückseite im CMYK-Stil.</p>
             <span class="info-text-page mr-2">Adobe Illustrator</span> <span class="footer-slash">I</span> <span
               class="info-text-page ml-2">Adobe InDesign</span>
           </v-col>
@@ -142,9 +142,8 @@
         <div class="vertical-bottom">
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">CommuniTea - Website Design</p>
-            <p class="text-page text-left">Online Medien (2. Semester, 2021).<br> Gestaltung einer fiktiven interaktiven
-              Homepage für einen
-              <br>Teeshop inklusive Dokumentation in PDF-Format.</p>
+            <p class="text-page text-justify">Online Medien (2. Semester, 2021).<br> Gestaltung einer fiktiven interaktiven
+              Homepage für einen <br> Online-Teeshop inklusive Dokumentation im PDF-Format.</p>
             <span class="info-text-page mr-2">Adobe Illustrator</span> <span class="footer-slash">I</span> <span
               class="info-text-page ml-2 mr-2">Adobe InDesign</span>
             <span class="footer-slash">I</span> <span class="info-text-page ml-2">Adobe XD</span>

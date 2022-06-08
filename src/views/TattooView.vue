@@ -15,8 +15,7 @@
         <v-divider class="divider"></v-divider>
         <p class="text-page mb-10">Reportage über die Entstehung eines Tattoos im Tattoostudio "Hola Papaya" in
           München (2. Semester, Juni 2021). <br> Da ich in diesem Studio selbst Kundin bin, war ich sehr glücklich, dort
-          meine Reportage fotografieren zu können. <br> Das Tätowieren hat mich schon seit Jahren fasziniert und
-          begeistert. Hier habe ich Fefy begleitet, die einer Stammkundin ein Cover-Up gestochen hat. </p>
+          meine Reportage fotografieren zu können. <br> Das Tätowieren begeistert mich schon seit Jahren. Hier habe ich Fefy begleitet, die ein Cover-Up gestochen hat. </p>
       </v-col>
       <v-col class="pa-0 mb-5">
         <gallery-tattoo-component/>

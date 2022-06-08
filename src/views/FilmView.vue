@@ -53,7 +53,7 @@
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">Analoge Fotografie - Making Of</p>
             <p class="text-page text-left">Vertiefung Fotografie und Bewegtbild (2. Semester, 2021).<br> Im Rahmen eines
-              Kurses durften wir uns mit der <br>analogen Fotografie beschäftigen und haben dies <br>in kurzen Videos
+              Kurses haben wir uns mit der analogen <br>Fotografie beschäftigt und dies in Videos
               festgehalten.</p>
             <span class="info-text-page mr-2">Kamera</span>
             <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
@@ -100,7 +100,7 @@
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">Wahnsinn⁶ - Das Verhör</p>
             <p class="text-page text-left">Interdisciplinary Project (3. Semester, 2022).<br> In Wahnsinn⁶ begleiten
-              wir das Leben zweier WGs,<br>die unterschhiedlicher nicht sein könnten.</p>
+              wir das Leben von zwei <br>ungleichen WGs und deren chaotischen Alltag.</p>
             <span class="info-text-page mr-2">Drehbuch</span> <span class="footer-slash">I</span> <span
               class="info-text-page ml-2 mr-2">Kamera</span>
             <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
@@ -146,7 +146,7 @@
         <div class="vertical-bottom">
           <v-col class="pa-0">
             <p class="title-page text-left" style="color: #424242;">Interview mit Benjamin Grund</p>
-            <p class="text-page text-left">Business Photography (4. Semester, 2022).<br> Kurzes Interview mit Benjamin Grund,<br>Sänger und Besitzer eines Motorradhelmgeschäftes.</p>
+            <p class="text-page text-left">Business Photography (4. Semester, 2022).<br> Kurzes Interview mit Benjamin Grund, Sänger <br>und Besitzer eines Motorradhelmgeschäftes.</p>
             <span class="info-text-page mr-2">Kamera</span>
             <span class="footer-slash">I</span> <span class="info-text-page ml-2">Schnitt</span>
           </v-col>

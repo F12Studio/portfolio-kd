@@ -54,9 +54,10 @@
                lg="12"
                xl="8"
                class="mb-10 pa-0">
-          <p class="text-page text-justify">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist meine große
+          <p class="text-page text-justify">Mein Name ist Katharina Düwel, ich bin 20 Jahre alt und Fotografieren ist
+            seit vielen Jahren meine große
             Leidenschaft. <br>
-            Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals noch einfach drauf los mit einer kleinen
+            Ich fotografiere, seitdem ich ein kleines Mädchen bin - damals einfach drauf los mit meiner ersten, kleinen
             Digitalkamera. <br>
             Durch meinen Pflegehund Sammy, den ich seit über neun Jahren kenne und der mir als Model seither immer
             geduldig und motiviert zur Seite steht, habe ich die Fotografie als Hobby kennen und lieben gelernt.
@@ -64,11 +65,11 @@
             Zeit später zog meine erste eigene Kamera ein. <br>
             Es dauerte nicht lange, und ich wusste: Fotografieren ist nicht nur ein Hobby für mich. Es ist viel mehr
             als das, und da fiel die Entscheidung, diese Leidenschaft professionell zu betreiben und der Berufswunsch
-            als Fotografin wuchs - und wächst auch heute immer noch. <br>
+            als Fotografin wuchs - und seitdem arbeite ich daran, dass dieser Wunsch in Erfüllung geht. <br>
             Ich konnte durch verschiedenste Shootings viel Erfahrung sammeln, habe dadurch ein gutes Auge für schöne
             Locations entwickelt und weiß, wie ich Menschen, Tiere und Landschaften ins beste Licht rücke. Ich
             fotografiere nicht nur,
-            weil es mir Spaß macht. Es geht mir viel mehr darum, besondere Momente
+            weil es mir Spaß macht. Es geht mir darum, besondere Momente
             einzufangen und Gefühle und Erinnerungen für immer festzuhalten. </p>
         </v-col>
       </v-row>
@@ -81,7 +82,7 @@
         <v-col cols
                md="6"
                lg="6"
-               xl="5"
+               xl="4"
                class="pa-0">
           <h1 class="mb-2 title-page">Equipment</h1>
           <p class="text-page"> Canon EOS 6D Mark ii
@@ -97,26 +98,25 @@
         <v-col cols
                md="6"
                lg="6"
-               xl="5"
+               xl="4"
                class="pa-0">
           <h1 class="mb-2 title-page">Referenzen</h1>
-          <p class="text-page teyt-justify"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" von Julia
-            Wenderoth, erschienen im GU-Verlag
+          <p class="text-page text-left"> Veröffentlichung in "Lifehacks Hund - Die besten Kniffe für den Alltag" (Julia
+            Wenderoth, erschienen im GU-Verlag)
             <br> <br>
             Kooperation mit der Hundefuttermarke "Goood Dog"
-            (Mai 2018 bis Mai 2019)
+            <br>(Mai 2018 bis Mai 2019)
             <br> <br>
-            Veröffentlichung in der September-Ausgabe 2018 der British Vogue
+            Veröffentlichung in der British Vogue (September 2018)
             <br> <br>
             Veröffentlichung in "Entspannt draußen - Wie du die Spaziergänge mit deinem Hund wieder genießen kannst"
-            von
-            Sarah Both
+            (Sarah Both)
             <br> <br>
-            Veröffentlichung in "Hundetraining für Welpen und Junghunde" von Sarah Both
+            Veröffentlichung in "Hundetraining für Welpen und Junghunde" (Sarah Both)
             <br> <br>
             Praktikum bei GentlePup in Singapur (August 2019)
             <br> <br>
-            Fotografische Begleitung für "Women in Business" (LMU, Oktober 2019 bis März 2020)</p>
+            Fotografische Begleitung für "Women in Business" <br>(LMU, Oktober 2019 bis März 2020)</p>
         </v-col>
       </v-row>
     </v-row>

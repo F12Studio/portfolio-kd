@@ -13,10 +13,10 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Big city life - Singapore</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page mb-10"> (Eigene Serie, 2019). <br> Eine Metropole geprägt von Moderne, Technik und Architektur -
-          Willkommen in Singapur! <br> Kaum eine andere Stadt hat sich in den letzten Jahren so stark verändert. Nach
-          meinem Abitur im Jahr 2019 hatte das Glück, für einige Wochen dort zu wohnen, und
-          selten habe ich mich so schnell verliebt. <br> Fotografisch ist Singapur ein absolutes Highlight, aber seht
+        <p class="text-page mb-10 text-justify"> (Eigene Serie, 2019). <br> Eine Metropole geprägt von Moderne, Technik und Architektur -
+          Willkommen in Singapur! <br> Kaum eine andere Stadt hat sich in den letzten Jahrzehnten so stark verändert. Nach
+          meinem Abitur vor <br>drei Jahren hatte ich die Gelegenheit, für einige Wochen dort zu wohnen, und
+          selten war ich so fasziniert. <br> Fotografisch ist Singapur ein absolutes Highlight, aber seht
           selbst ...
         </p>
       </v-col>

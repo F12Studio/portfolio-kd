@@ -13,10 +13,10 @@
              class="pa-0">
         <h1 class="mt-10 mb-2 title-page">Life is better with a dog</h1>
         <v-divider class="divider"></v-divider>
-        <p class="text-page mb-10"> (Eigene Serie, 2018 - 2022). <br> Fliegende Ohren, glückliche Gesichter und einfach nur
-          Spaß - das sind Hunde in Action. <br> Durch die Hunde bin ich zum Fotografieren gekommen und es ist immer noch
-          meine größte Passion. Natürlich liebe ich alle Posen, egal, ob der Hund steht, sitzt oder liegt. <br> Doch
-          sobald es ans Rennen geht, zeigt sich die pure Lebensfreude - es gibt nichts Schöneres auf der Welt!
+        <p class="text-page mb-10 text-justify-all"> (Eigene Serie, 2018 - 2022). <br> Fliegende Ohren, glückliche Gesichter und einfach nur
+          Charakter pur - das sind Hunde in Bewegung. <br> Durch die Fellnasen bin ich zum Fotografieren gekommen und es ist immer noch
+          meine große Passion. <br> Denn
+          sobald es ans Rennen geht, zeigt sich die Lebensfreude ... es gibt nichts Schöneres auf der Welt!
         </p>
       </v-col>
       <v-col class="pa-0 mb-5">

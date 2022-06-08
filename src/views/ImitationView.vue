@@ -14,10 +14,10 @@
         <h1 class="mt-10 mb-2 title-page">Imitation of an Idol</h1>
         <v-divider class="divider"></v-divider>
         <p class="text-page mb-10">Imitation des Fotografen Marius Sperlich (1. Semester, Januar 2021). <br> Vorbild und
-          Nachbild - mein erstes
-          Fotoprojekt im Studium, und es ist immer noch eines meiner Favoriten. <br> Seine starken Bildern und der
-          gesellschaftskritische Inhalt haben Marius SPerlich bekannt gemacht, sein Stil ist einzigartig. Ihn zu
-          imitieren war nicht einfach, aber auf jeden Fall eine schöne Challenge, auf die ich sehr stolz bin.</p>
+          Nachbild - das war mein erstes
+          Fotoprojekt im Studium, und immer noch mein Favorit. <br> Seine starken Bildern und der
+          gesellschaftskritische Inhalt haben Marius Sperlich bekannt gemacht. <br>Ihn zu
+          imitieren war definitiv nicht einfach, aber auf das Ergebnis kann ich auf jeden Fall stolz sein.</p>
       </v-col>
       <v-col class="pa-0 mb-5">
         <gallery-imitation-component/>

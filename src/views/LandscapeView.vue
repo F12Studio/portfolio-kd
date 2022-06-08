@@ -14,9 +14,9 @@
         <h1 class="mt-10 mb-2 title-page">Landscape</h1>
         <v-divider class="divider"></v-divider>
         <p class="text-page mb-10"> (Eigene Serie, 2018 - 2021). <br> Entspannen und einfach mal Sein, Innehalten und die
-          Stille genießen ... <br> Egal ob das atemberaubende Island, die schönen Dolomiten oder die guten Münchner
-          Hausberge - in der Natur kann man Durchatmen. So ganz klein und nichtig fühlt man sich manchmal, aber dann
-          doch wieder so stark und unaufhaltbar.
+          Stille genießen ... <br> Ob das atemberaubende Island oder die Münchner
+          Hausberge - in der Natur kann man Durchatmen. <br>Ganz klein und nichtig fühlt man sich manchmal, aber dann
+          doch wieder so stark und unaufhaltsam.
         </p>
       </v-col>
       <v-col class="pa-0 mb-5">
