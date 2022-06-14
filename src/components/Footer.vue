@@ -11,11 +11,13 @@
         >
           <h1 class="footer-title pb-4">Kontakt</h1>
           <v-card-text class="pa-0">
-            <p class="ma-0"><span class="footer-text mr-2">Katharina Düwel Fotografie</span> <span class="footer-slash">I</span> <a href="mailto:katharinaduewel@icloud.com"
-                                                      class="footer-text mr-2 ml-2">katharinaduewel@icloud.com</a>
+            <p class="ma-0"><span class="footer-text mr-2">Katharina Düwel Fotografie</span> <span class="footer-slash">I</span>
+              <a href="mailto:katharinaduewel@icloud.com"
+                 class="footer-text mr-2 ml-2">katharinaduewel@icloud.com</a>
               <span class="footer-slash">I</span> <span class="ml-2 footer-text">+49 173 2188024</span></p>
             <v-divider class="divider-footer"></v-divider>
-            <p class="ma-0 mt-2 footer-text">©2022 by Katharina Düwel</p>
+            <p class="ma-0"><a href="https://www.katharinaduewelfotografie.de/about/" class="footer-text mr-2">Impressum</a>
+              <span class="footer-slash">I</span> <span class="ml-2 footer-text">©2022 by Katharina Düwel</span></p>
           </v-card-text>
         </v-card>
       </v-col>
